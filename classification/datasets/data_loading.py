@@ -159,6 +159,18 @@ def get_test_loader(setting: str, adaptation: str, dataset_name: str, preprocess
                                                     transform=transform,
                                                     setting=setting)
 
+        elif dataset_name in ["coco", "coco_c"]:
+            from datasets.coco_corrupted_dataset import create_coco_corrupted_dataset
+            # Always use multi-label for COCO
+            test_dataset = create_coco_corrupted_dataset(dataset_name=dataset_name,
+                                                         severity=severity,
+                                                         data_dir=data_dir,
+                                                         corruption=domain_name,
+                                                         corruptions_seq=domain_names_all,
+                                                         transform=transform,
+                                                         setting=setting,
+                                                         multi_label=True)
+
         elif dataset_name in ["imagenet_k", "imagenet_r", "imagenet_a", "imagenet_v2"]:
             test_dataset = torchvision.datasets.ImageFolder(root=data_dir, transform=transform)
 

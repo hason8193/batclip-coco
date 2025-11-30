@@ -85,3 +85,87 @@ class GeneralizedCrossEntropy(nn.Module):
             targets = probs.argmax(dim=1)
         probs_with_correct_idx = probs.index_select(-1, targets).diag()
         return (1.0 - probs_with_correct_idx ** self.q) / self.q
+
+
+class MultiLabelBCELoss(nn.Module):
+    """Binary Cross Entropy Loss for multi-label classification"""
+    def __init__(self, pos_weight=None):
+        super(MultiLabelBCELoss, self).__init__()
+        self.pos_weight = pos_weight
+        self.bce = nn.BCEWithLogitsLoss(pos_weight=pos_weight, reduction='mean')
+    
+    def __call__(self, logits, targets):
+        """
+        Args:
+            logits: (N, C) - raw model outputs (before sigmoid)
+            targets: (N, C) - binary ground truth labels
+        """
+        return self.bce(logits, targets)
+
+
+class MultiLabelAsymmetricLoss(nn.Module):
+    """
+    Asymmetric Loss for Multi-Label Classification
+    Paper: https://arxiv.org/abs/2009.14119
+    """
+    def __init__(self, gamma_neg=4, gamma_pos=1, clip=0.05, eps=1e-8):
+        super(MultiLabelAsymmetricLoss, self).__init__()
+        self.gamma_neg = gamma_neg
+        self.gamma_pos = gamma_pos
+        self.clip = clip
+        self.eps = eps
+
+    def __call__(self, logits, targets):
+        """
+        Args:
+            logits: (N, C) - raw model outputs (before sigmoid)
+            targets: (N, C) - binary ground truth labels
+        """
+        # Sigmoid probabilities
+        probs = torch.sigmoid(logits)
+        
+        # Asymmetric clipping
+        if self.clip is not None and self.clip > 0:
+            probs_temp = probs * (1 - targets)
+            probs = torch.where(probs_temp > self.clip, probs_temp, probs)
+        
+        # Positive and negative losses
+        pos_loss = targets * torch.log(probs.clamp(min=self.eps))
+        neg_loss = (1 - targets) * torch.log((1 - probs).clamp(min=self.eps))
+        
+        # Asymmetric focusing
+        pos_loss = pos_loss * (1 - probs) ** self.gamma_pos
+        neg_loss = neg_loss * probs ** self.gamma_neg
+        
+        loss = -pos_loss - neg_loss
+        return loss.mean()
+
+
+class MultiLabelFocalLoss(nn.Module):
+    """Focal Loss for multi-label classification"""
+    def __init__(self, alpha=0.25, gamma=2.0):
+        super(MultiLabelFocalLoss, self).__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+    
+    def __call__(self, logits, targets):
+        """
+        Args:
+            logits: (N, C) - raw model outputs (before sigmoid)
+            targets: (N, C) - binary ground truth labels
+        """
+        probs = torch.sigmoid(logits)
+        
+        # Compute focal weight
+        pt = torch.where(targets == 1, probs, 1 - probs)
+        focal_weight = (1 - pt) ** self.gamma
+        
+        # Compute BCE loss
+        bce_loss = nn.functional.binary_cross_entropy_with_logits(
+            logits, targets, reduction='none'
+        )
+        
+        # Apply focal weight
+        focal_loss = self.alpha * focal_weight * bce_loss
+        
+        return focal_loss.mean()

@@ -55,6 +55,9 @@ _C.DETERMINISM = False
 # Precision
 _C.MIXED_PRECISION = False
 
+# Multi-label classification mode (for COCO dataset)
+_C.MULTI_LABEL = False
+
 # Optional description of a config
 _C.DESC = ""
 
@@ -327,6 +330,15 @@ _C.TEST.DELTA_DIRICHLET = 0.0
 # Debuging mode
 _C.TEST.DEBUG = False
 
+# ------------------------------- Visualization options --------------------- #
+_C.VISUALIZE = False
+
+# Number of samples to visualize per corruption
+_C.VIS_SAMPLES = 8
+
+# Directory to save visualizations
+_C.VIS_DIR = "visualizations"
+
 # --------------------------------- CUDNN options --------------------------- #
 _C.CUDNN = CfgNode()
 
@@ -439,6 +451,8 @@ def complete_data_dir_path(data_root_dir: str, dataset_name: str):
                "cifar10_c": "",     # do not change
                "cifar100": "",      # do not change
                "cifar100_c": "",    # do not change
+               "coco": "COCOC_Dataset",          # COCO corrupted dataset
+               "coco_c": "COCOC_Dataset",        # COCO corrupted dataset
                "caltech101": os.path.join("caltech101", "101_ObjectCategories"),
                "dtd": os.path.join("dtd", "dtd", "images"),
                "eurosat": os.path.join("eurosat", "2750"),                      # automatic download fails
@@ -487,6 +501,7 @@ def get_num_classes(dataset_name: str):
                                 "imagenet_k": 1000, "imagenet_r": 200, "imagenet_a": 200,
                                 "imagenet_d": 164, "imagenet_d109": 109, "imagenet200": 200,
                                 "domainnet126": 126,
+                                "coco": 80, "coco_c": 80,
                                 "eurosat": 10, "flowers102": 102, "oxford_pets": 37,
                                 "dtd": 47, "food101": 101, "sun397": 397, "caltech101": 100,
                                 "ucf101": 101, "stanford_cars": 196, "fgvc_aircraft": 100

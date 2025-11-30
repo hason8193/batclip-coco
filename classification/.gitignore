@@ -1,0 +1,48 @@
+# Output and logs
+output/
+*.log
+*.txt
+
+# Visualizations
+visualizations/individual/
+visualizations/batclip/
+visualizations/quick/
+
+# Dataset files
+COCOC_Dataset/
+*.jpg
+*.png
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints
+ckpt/
+*.pth
+*.pt
+
+# Temporary files
+*.tmp
+.cache/
