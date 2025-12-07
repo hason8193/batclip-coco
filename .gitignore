@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Large dataset folders (ImageNet)
+ImageNet-100/
+ImageNet-C-100/
+ImageNet-C/
+imagenet*/
+ImageNet*/
+COCO_Dataset/
+# Output and checkpoint folders
+output/
+ckpt/
+*.pth
+*.pt
+*.ckpt
+
+# COCO Dataset (entire folder - too large)
+COCOC_Dataset/
+
+# Logs and results
+*.txt
+!requirements.txt
+!LICENSE
+logs/
+results/
