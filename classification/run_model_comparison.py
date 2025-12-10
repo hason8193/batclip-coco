@@ -31,8 +31,10 @@ CORRUPTIONS = [
 SEVERITIES = [1, 2, 3, 4, 5]
 
 MODELS = [
-    {'name': 'batclip', 'script': 'generate_individual_predictions_imagenetc.py', 
+    {'name': 'batclip_tta', 'script': 'generate_individual_predictions_imagenetc.py', 
      'args': ['--adaptation', 'ours', '--batch-size', '8']},
+    {'name': 'batclip_zeroshot', 'script': 'generate_individual_predictions_imagenetc.py',
+     'args': ['--adaptation', 'source', '--batch-size', '8']},
     {'name': 'resnet101', 'script': 'generate_individual_predictions_standard_models.py',
      'args': ['--model', 'resnet101', '--batch-size', '32']},
     {'name': 'densenet201', 'script': 'generate_individual_predictions_standard_models.py',
@@ -148,7 +150,7 @@ def run_full_comparison(selected_corruptions=None, selected_severities=None, dat
     severities = selected_severities or SEVERITIES
     
     print("\n" + "="*80)
-    print("BATCLIP vs Standard Models - Full Comparison")
+    print("BATCLIP (TTA vs Zero-shot) vs Standard Models - Full Comparison")
     print("="*80)
     print(f"Dataset: ImageNet-C-100")
     print(f"Models: {len(MODELS)}")
