@@ -72,18 +72,34 @@ def run_model_comparison(corruption, severity, max_images=None):
         cmd.extend(model_args)
         
         try:
-            # Run the model and capture output
+            # Run the model with live output using Popen
             print(f"Command: {' '.join(cmd)}\n")
-            result = subprocess.run(cmd, check=True, text=True, capture_output=True)
             
-            # Print output
-            print(result.stdout)
-            if result.stderr:
-                print(result.stderr)
+            # Use Popen to show live output and capture it
+            process = subprocess.Popen(
+                cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                bufsize=1,
+                universal_newlines=True
+            )
             
-            # Parse accuracy from output
+            # Read and print output line by line (live)
+            output_lines = []
+            for line in process.stdout:
+                print(line, end='')  # Print live
+                output_lines.append(line)  # Store for parsing
+            
+            process.wait()
+            
+            if process.returncode != 0:
+                raise subprocess.CalledProcessError(process.returncode, cmd)
+            
+            # Parse accuracy from captured output
             accuracy = None
-            for line in result.stdout.split('\n'):
+            full_output = ''.join(output_lines)
+            for line in output_lines:
                 if 'Top-1 Accuracy:' in line:
                     # Extract accuracy like "Top-1 Accuracy: 74.40%"
                     try:
@@ -101,8 +117,6 @@ def run_model_comparison(corruption, severity, max_images=None):
             
         except subprocess.CalledProcessError as e:
             print(f"✗ Error running {model_name}: {e}")
-            if e.output:
-                print(e.output)
             results[model_name] = None
     
     # Summary

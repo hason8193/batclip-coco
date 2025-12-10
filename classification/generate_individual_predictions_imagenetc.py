@@ -43,6 +43,9 @@ def visualize_single_image(img_batch, img_pil_list, label_batch, model, class_na
         with torch.no_grad():
             output = model(img_batch.to(device))
     
+    # Store original output for accuracy calculation later
+    output_for_accuracy = output.clone()
+    
     # Process each image in the batch
     saved_paths = []
     batch_size = img_batch.size(0)
@@ -108,7 +111,7 @@ def visualize_single_image(img_batch, img_pil_list, label_batch, model, class_na
         
         saved_paths.append(save_path)
     
-    return saved_paths
+    return saved_paths, output_for_accuracy
 
 
 def load_imagenetc_dataset(data_dir, corruption, severity, transform):
@@ -218,7 +221,7 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     cfg.CUDNN.BENCHMARK = True
     cfg.OPTIM.STEPS = 1
     cfg.OPTIM.LR = 0.001
-    cfg.MODEL.EPISODIC = False
+    cfg.MODEL.EPISODIC = True  # ✅ Reset model after each batch to prevent drift
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[+] Device: {device}")
@@ -311,8 +314,8 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
                                   if cls.replace(' ', '_') in class_name_to_idx]
             valid_class_indices = torch.tensor(valid_class_indices, device=device)
             
-            # Generate visualizations for batch
-            saved_paths = visualize_single_image(
+            # Generate visualizations for batch and get outputs
+            saved_paths, output = visualize_single_image(
                 img_batch, img_pil_list, label_batch, model, class_names,
                 corruption, severity, start_idx, output_dir, device, 
                 use_adaptation=use_adaptation,
@@ -321,20 +324,15 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
             
             successful += len(saved_paths)
             
-            # Count correct predictions (top-1 accuracy) - filter to 100 classes
-            with torch.no_grad():
-                if use_adaptation:
-                    output = model(img_batch.to(device))
-                else:
-                    output = model(img_batch.to(device))
-                
-                # Mask output to only include the 100 selected classes
-                mask = torch.ones_like(output) * float('-inf')
-                mask[:, valid_class_indices] = 0
-                filtered_output = output + mask
-                
-                preds = filtered_output.argmax(dim=1)
-                correct += (preds.cpu() == label_batch).sum().item()
+            # Count correct predictions (top-1 accuracy) using outputs from visualization
+            # No need for another forward pass - reuse the outputs we already have!
+            # Mask output to only include the 100 selected classes
+            mask = torch.ones_like(output) * float('-inf')
+            mask[:, valid_class_indices] = 0
+            filtered_output = output + mask
+            
+            preds = filtered_output.argmax(dim=1)
+            correct += (preds.cpu() == label_batch).sum().item()
             
         except Exception as e:
             print(f"\n  ⚠ Error processing batch {batch_idx}: {e}")
