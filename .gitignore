@@ -128,12 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Large dataset folders (ImageNet)
+# Large dataset folders (ImageNet) 
 ImageNet-100/
-ImageNet-C-100/
+# Note: classification/ImageNet-C-100/ is tracked for the project
 ImageNet-C/
 imagenet*/
-ImageNet*/
+# ImageNet*/ - commented out to allow ImageNet-C-100
 COCO_Dataset/
 # Output and checkpoint folders
 output/
