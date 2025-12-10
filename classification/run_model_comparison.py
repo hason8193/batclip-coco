@@ -41,7 +41,7 @@ MODELS = [
      'args': ['--model', 'mobilenet_v3_large', '--batch-size', '32']},
 ]
 
-def run_model_comparison(corruption, severity, max_images=None):
+def run_model_comparison(corruption, severity, data_dir='ImageNet-C-100', max_images=None):
     """Run all 4 models on a specific corruption and severity"""
     
     print("\n" + "="*80)
@@ -61,7 +61,7 @@ def run_model_comparison(corruption, severity, max_images=None):
         # Build command
         cmd = [
             'python', script,
-            '--data-dir', 'ImageNet-C-100',
+            '--data-dir', data_dir,
             '--corruption', corruption,
             '--severity', str(severity)
         ]
@@ -133,13 +133,14 @@ def run_model_comparison(corruption, severity, max_images=None):
     return results
 
 
-def run_full_comparison(selected_corruptions=None, selected_severities=None, max_images=None):
+def run_full_comparison(selected_corruptions=None, selected_severities=None, data_dir='ImageNet-C-100', max_images=None):
     """
     Run full comparison across multiple corruptions and severities
     
     Args:
         selected_corruptions: List of corruptions to test (default: all)
         selected_severities: List of severities to test (default: all)
+        data_dir: Path to ImageNet-C dataset directory
         max_images: Limit number of images per corruption/severity
     """
     
@@ -164,7 +165,7 @@ def run_full_comparison(selected_corruptions=None, selected_severities=None, max
     for corruption in corruptions:
         for severity in severities:
             key = f"{corruption}_s{severity}"
-            all_results[key] = run_model_comparison(corruption, severity, max_images)
+            all_results[key] = run_model_comparison(corruption, severity, data_dir, max_images)
     
     # Final summary
     print("\n\n" + "="*80)
@@ -203,6 +204,8 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description='Compare BATCLIP with standard models on ImageNet-C-100')
+    parser.add_argument('--data-dir', type=str, default='ImageNet-C-100',
+                       help='Path to ImageNet-C dataset directory (default: ImageNet-C-100)')
     parser.add_argument('--corruption', type=str, default=None,
                        choices=CORRUPTIONS,
                        help='Single corruption to test (default: all)')
@@ -218,13 +221,13 @@ if __name__ == "__main__":
     if args.quick_test:
         # Quick test mode
         print("Running QUICK TEST mode")
-        run_model_comparison('defocus_blur', 3, max_images=100)
+        run_model_comparison('defocus_blur', 3, args.data_dir, max_images=100)
     elif args.corruption and args.severity:
         # Single test
-        run_model_comparison(args.corruption, args.severity, args.max_images)
+        run_model_comparison(args.corruption, args.severity, args.data_dir, args.max_images)
     elif args.corruption:
         # Single corruption, all severities
-        run_full_comparison([args.corruption], SEVERITIES, args.max_images)
+        run_full_comparison([args.corruption], SEVERITIES, args.data_dir, args.max_images)
     else:
         # Full comparison
-        run_full_comparison(max_images=args.max_images)
+        run_full_comparison(data_dir=args.data_dir, max_images=args.max_images)
