@@ -219,7 +219,7 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     cfg.MODEL.ADAPTATION = adaptation_method
     cfg.TEST.BATCH_SIZE = batch_size
     cfg.CUDNN.BENCHMARK = True
-    cfg.OPTIM.STEPS = 1
+    cfg.OPTIM.STEPS = 10  # ✅ Increased from 1 to 10 for meaningful adaptation
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = True  # ✅ Reset model after each batch to prevent drift
     
