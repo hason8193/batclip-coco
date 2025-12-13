@@ -1,0 +1,581 @@
+{
+  "acoustic_guitar": [
+    "hollow body",
+    "sound hole",
+    "six strings",
+    "fretboard",
+    "curved waist"
+  ],
+  "airliner": [
+    "cylindrical fuselage",
+    "wings",
+    "jet engines",
+    "tail fin",
+    "numerous windows"
+  ],
+  "albatross": [
+    "long narrow wings",
+    "large hooked beak",
+    "webbed feet",
+    "pelagic"
+  ],
+  "ambulance": [
+    "siren",
+    "emergency lights",
+    "cross symbol",
+    "boxy rear compartment",
+    "distinctive markings"
+  ],
+  "American_alligator": [
+    "dark scales",
+    "broad rounded snout",
+    "visible teeth",
+    "powerful tail",
+    "dorsal scutes"
+  ],
+  "backpack": [
+    "shoulder straps",
+    "main compartment",
+    "zippers",
+    "fabric material",
+    "various pockets"
+  ],
+  "bald_eagle": [
+    "white head",
+    "white tail",
+    "dark brown body",
+    "yellow beak",
+    "talons"
+  ],
+  "banana": [
+    "curved shape",
+    "yellow peel",
+    "soft flesh",
+    "stem"
+  ],
+  "baseball": [
+    "spherical shape",
+    "white leather cover",
+    "red stitching"
+  ],
+  "basketball": [
+    "spherical shape",
+    "orange color",
+    "pebbled surface",
+    "black lines"
+  ],
+  "beer_bottle": [
+    "dark glass",
+    "cylindrical body",
+    "narrow neck",
+    "cap"
+  ],
+  "beer_glass": [
+    "transparent glass"
+  ],
+  "bow_tie": [
+    "symmetrical knot",
+    "fabric material",
+    "worn around neck"
+  ],
+  "broccoli": [
+    "green florets",
+    "thick stalk",
+    "tree-like appearance"
+  ],
+  "brown_bear": [
+    "shaggy brown fur",
+    "hump on shoulders",
+    "claws",
+    "short rounded ears"
+  ],
+  "castle": [
+    "turrets",
+    "battlements",
+    "stone walls"
+  ],
+  "cauliflower": [
+    "white curds",
+    "green leaves",
+    "compact head"
+  ],
+  "chameleon": [
+    "changeable skin color",
+    "turret eyes",
+    "long prehensile tongue",
+    "zygodactyl feet"
+  ],
+  "cheeseburger": [
+    "ground beef patty",
+    "cheese slice",
+    "bun"
+  ],
+  "cheetah": [
+    "golden-yellow coat",
+    "solid black spots",
+    "black tear stripes",
+    "slender body",
+    "long tail"
+  ],
+  "chimpanzee": [
+    "dark fur",
+    "bare face",
+    "long arms",
+    "opposable thumbs"
+  ],
+  "church": [
+    "steeple",
+    "cross",
+    "stained glass windows"
+  ],
+  "coffee_mug": [
+    "cylindrical shape",
+    "handle",
+    "ceramic material"
+  ],
+  "convertible": [
+    "retractable roof",
+    "two or four seats",
+    "automobile"
+  ],
+  "coral_reef": [
+    "underwater structure",
+    "diverse colors",
+    "calcium carbonate skeleton",
+    "polyp colonies"
+  ],
+  "cowboy_hat": [
+    "high crown",
+    "wide brim",
+    "creased crown"
+  ],
+  "daisy": [
+    "white petals",
+    "yellow center disk",
+    "rosette of leaves",
+    "single stem"
+  ],
+  "desktop_computer": [
+    "monitor",
+    "keyboard",
+    "mouse",
+    "tower/case"
+  ],
+  "drum": [
+    "cylindrical shell",
+    "drumheads"
+  ],
+  "dugong": [
+    "plump body",
+    "fluked tail",
+    "paddle-like front flippers",
+    "down-turned snout",
+    "thick skin"
+  ],
+  "electric_guitar": [
+    "solid body",
+    "pickups",
+    "six strings",
+    "fretboard",
+    "volume/tone knobs"
+  ],
+  "espresso": [
+    "small volume",
+    "dark brown liquid",
+    "crema layer",
+    "served in demitasse cup"
+  ],
+  "fire_truck": [
+    "red color",
+    "ladders",
+    "hoses",
+    "siren",
+    "emergency lights"
+  ],
+  "flamingo": [
+    "pink feathers",
+    "long thin legs",
+    "long S-shaped neck",
+    "down-curved beak"
+  ],
+  "flute": [
+    "cylindrical tube",
+    "side holes",
+    "keys/pads",
+    "mouthpiece"
+  ],
+  "fountain": [
+    "water jets",
+    "basin",
+    "sculptural elements"
+  ],
+  "garbage_truck": [
+    "large compactor",
+    "truck chassis"
+  ],
+  "German_Shepherd_Dog": [
+    "pointed ears",
+    "long muzzle",
+    "bushy tail",
+    "thick coat",
+    "black and tan coloration"
+  ],
+  "giant_panda": [
+    "black and white fur",
+    "round ears",
+    "dark eye patches",
+    "stout body"
+  ],
+  "Golden_Retriever": [
+    "golden fur",
+    "friendly expression",
+    "feathery tail",
+    "droopy ears"
+  ],
+  "goldfish": [
+    "orange/gold scales",
+    "fins"
+  ],
+  "golf_ball": [
+    "spherical shape",
+    "dimpled surface",
+    "white color"
+  ],
+  "gorilla": [
+    "large muscular build",
+    "dark fur",
+    "pronounced brow ridge"
+  ],
+  "grand_piano": [
+    "horizontal frame",
+    "long strings",
+    "large soundboard",
+    "three pedals",
+    "curved body"
+  ],
+  "great_grey_owl": [
+    "large facial disk",
+    "grey plumage",
+    "yellow eyes",
+    "no ear tufts"
+  ],
+  "great_white_shark": [
+    "conical snout",
+    "serrated triangular teeth",
+    "grey dorsal side",
+    "white ventral side"
+  ],
+  "green_iguana": [
+    "green scales",
+    "dewlap",
+    "spiny dorsal crest",
+    "long tail"
+  ],
+  "grey_whale": [
+    "mottled grey skin",
+    "barnacles",
+    "knuckles on dorsal ridge",
+    "large fluke"
+  ],
+  "hammerhead_shark": [
+    "hammer-shaped head",
+    "eyes on ends of 'hammer'",
+    "dorsal fin"
+  ],
+  "hot_dog": [
+    "sausage",
+    "bun"
+  ],
+  "hummingbird": [
+    "small size",
+    "long slender beak",
+    "rapidly beating wings",
+    "iridescent feathers"
+  ],
+  "ice_cream": [
+    "creamy texture",
+    "sweet flavor",
+    "various colors",
+    "served cold"
+  ],
+  "jaguar": [
+    "rosetted spots",
+    "stocky build",
+    "large head",
+    "powerful jaws"
+  ],
+  "jellyfish": [
+    "bell-shaped body",
+    "tentacles",
+    "gelatinous texture",
+    "translucent appearance"
+  ],
+  "killer_whale": [
+    "black and white coloration",
+    "large dorsal fin",
+    "white eyepatch",
+    "saddle patch",
+    "streamlined body"
+  ],
+  "king_penguin": [
+    "orange-yellow ear patches",
+    "vivid orange lower mandible",
+    "tall upright posture",
+    "black back",
+    "white chest"
+  ],
+  "koala": [
+    "large round head",
+    "big furry ears",
+    "large black nose",
+    "grey-brown fur",
+    "stout tailless body"
+  ],
+  "laptop_computer": [
+    "clamshell design",
+    "integrated keyboard",
+    "integrated screen",
+    "trackpad",
+    "portable"
+  ],
+  "leopard": [
+    "rosetted spots",
+    "slender body",
+    "long tail",
+    "powerful build"
+  ],
+  "lighthouse": [
+    "tall tower",
+    "bright light",
+    "coastal location",
+    "lantern room"
+  ],
+  "lion": [
+    "tawny fur",
+    "tufted tail",
+    "powerful build"
+  ],
+  "microwave_oven": [
+    "rectangular box",
+    "door with window",
+    "control panel",
+    "turntable"
+  ],
+  "minivan": [
+    "sliding doors",
+    "multi-passenger capacity",
+    "boxy shape",
+    "raised roofline"
+  ],
+  "mosque": [
+    "dome",
+    "minarets",
+    "arches",
+    "prayer hall"
+  ],
+  "mushroom": [
+    "cap",
+    "stem/stalk"
+  ],
+  "orangutan": [
+    "long reddish-brown hair",
+    "long arms",
+    "bare face"
+  ],
+  "palace": [
+    "grand architecture",
+    "large scale",
+    "ornate decorations",
+    "multiple wings"
+  ],
+  "parachute": [
+    "large canopy",
+    "suspension lines",
+    "harness",
+    "pack"
+  ],
+  "pelican": [
+    "large throat pouch",
+    "long bill",
+    "webbed feet",
+    "large wingspan"
+  ],
+  "pineapple": [
+    "spiky crown of leaves",
+    "rough scaly skin",
+    "oval shape",
+    "sweet yellow flesh"
+  ],
+  "pizza": [
+    "round flat dough",
+    "tomato sauce",
+    "cheese",
+    "various toppings"
+  ],
+  "polar_bear": [
+    "white fur",
+    "thick layer of blubber",
+    "large paws",
+    "short tail"
+  ],
+  "race_car": [
+    "low profile",
+    "aerodynamic body",
+    "spoiler",
+    "large tires",
+    "roll cage"
+  ],
+  "refrigerator": [
+    "large boxy appliance",
+    "freezer compartment",
+    "cooling unit"
+  ],
+  "rugby_ball": [
+    "oval shape",
+    "four panels",
+    "dimpled surface"
+  ],
+  "sailboat": [
+    "mast",
+    "sails",
+    "hull",
+    "keel",
+    "rudder"
+  ],
+  "saxophone": [
+    "conical brass body",
+    "keys/pads",
+    "mouthpiece with reed"
+  ],
+  "school_bus": [
+    "yellow color",
+    "stop sign arm",
+    "flashing lights",
+    "multiple windows"
+  ],
+  "sea_lion": [
+    "external ear flaps",
+    "long foreflippers",
+    "ability to walk on all fours",
+    "short thick hair",
+    "big chest and belly"
+  ],
+  "Siberian_Husky": [
+    "thick double coat",
+    "erect triangular ears",
+    "almond-shaped eyes",
+    "bushy tail carried over back",
+    "wolf-like appearance"
+  ],
+  "soccer_ball": [
+    "spherical shape",
+    "hexagonal and pentagonal panels",
+    "black and white pattern"
+  ],
+  "sombrero": [
+    "wide brim",
+    "high pointed crown",
+    "often decorated"
+  ],
+  "space_shuttle": [
+    "delta wings",
+    "large external tank",
+    "solid rocket boosters",
+    "orbiter vehicle"
+  ],
+  "sports_car": [
+    "low-slung body",
+    "two seats",
+    "sleek design",
+    "powerful engine"
+  ],
+  "strawberry": [
+    "red flesh",
+    "green leafy cap",
+    "small seeds on exterior",
+    "heart shape"
+  ],
+  "submarine": [
+    "cylindrical hull",
+    "conning tower/sail",
+    "propeller",
+    "periscope"
+  ],
+  "sunglasses": [
+    "dark tinted lenses",
+    "frame"
+  ],
+  "suspension_bridge": [
+    "main cables",
+    "suspender cables",
+    "towers",
+    "deck"
+  ],
+  "television": [
+    "rectangular screen",
+    "bezel/frame"
+  ],
+  "tennis_ball": [
+    "spherical shape",
+    "yellow-green felt",
+    "white curved lines"
+  ],
+  "tiger": [
+    "orange fur",
+    "black stripes",
+    "powerful build",
+    "white belly"
+  ],
+  "toaster": [
+    "slotted top",
+    "heating elements",
+    "lever",
+    "crumb tray"
+  ],
+  "toucan": [
+    "large colorful bill",
+    "bright plumage",
+    "short stocky body"
+  ],
+  "umbrella": [
+    "canopy",
+    "ribs",
+    "handle",
+    "shaft",
+    "folding mechanism"
+  ],
+  "vacuum_cleaner": [
+    "motor unit",
+    "hose/attachments",
+    "collection bag/canister",
+    "wheels"
+  ],
+  "violin": [
+    "wooden body",
+    "four strings",
+    "f-holes",
+    "bow",
+    "scroll"
+  ],
+  "volcano": [
+    "cone-shaped landform",
+    "crater",
+    "vent"
+  ],
+  "volleyball": [
+    "spherical shape",
+    "synthetic leather panels",
+    "white and colored sections"
+  ],
+  "washing_machine": [
+    "large appliance",
+    "drum/agitator",
+    "control panel"
+  ],
+  "wine_bottle": [
+    "glass bottle",
+    "cylindrical body",
+    "narrow neck",
+    "cork/screw cap"
+  ]
+}

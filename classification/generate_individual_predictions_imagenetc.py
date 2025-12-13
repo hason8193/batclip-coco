@@ -17,6 +17,7 @@ import argparse
 from conf import cfg
 from models.model import get_model
 from datasets.cls_names import get_class_names
+from datasets.feature_prompts import build_imagenet_prompt_json, load_feature_dict, write_prompt_json
 from utils.registry import ADAPTATION_REGISTRY
 
 # Import adaptation methods to register them
@@ -199,14 +200,18 @@ def load_imagenetc_dataset(data_dir, corruption, severity, transform):
     return ImageNetCDataset(data_dir, corruption, severity, transform)
 
 
-def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_blur', severity=1, 
-                                   max_images=None, adaptation_method='ours', batch_size=8):
+def generate_individual_predictions(data_dir='ImageNet-C-100', corruption='defocus_blur', severity=1,
+                                   max_images=None, adaptation_method='ours', batch_size=8,
+                                   feature_prompt_path: str | None = None,
+                                   feature_prompt_variant: str = 'has',
+                                   feature_prompt_fallback: str = 'a photo of a {}.',
+                                   feature_prompt_out: str | None = None):
     """Generate individual prediction images for ImageNet-C corruptions"""
     
     use_adaptation = (adaptation_method != 'source')
     
     print("\n" + "="*80)
-    print(f"Dataset: ImageNet-C Corruptions")
+    print(f"Dataset: ImageNet-C-100 Corruptions")
     print(f"Generating Individual Predictions: {corruption} (severity {severity})")
     print(f"Method: {'BATCLIP (' + adaptation_method + ')' if use_adaptation else 'Zero-shot CLIP'}")
     print("="*80)
@@ -222,6 +227,26 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     cfg.OPTIM.STEPS = 3  # ✅ 3 steps for batch_size=8 to avoid overfitting
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = True  # ✅ Reset model after each batch to prevent drift
+
+    # Optional: replace prompts with feature-based prompts via CuPL prompt loader.
+    if feature_prompt_path is not None:
+        imagenet_class_names = get_class_names('imagenet')
+        feature_dict = load_feature_dict(feature_prompt_path)
+        prompt_json = build_imagenet_prompt_json(
+            imagenet_class_names,
+            feature_dict,
+            variant=feature_prompt_variant,  # 'has' | 'may_or_may_not_have'
+            fallback_template=feature_prompt_fallback,
+        )
+
+        if feature_prompt_out is None:
+            # Keep it deterministic and inside repo by default.
+            feature_prompt_out = f"datasets/cupl_prompts/imagenet_feature_{feature_prompt_variant}.json"
+
+        out_path = write_prompt_json(prompt_json, feature_prompt_out)
+        cfg.CLIP.PROMPT_MODE = 'cupl'
+        cfg.CLIP.PROMPT_PATH = str(out_path)
+        print(f"[+] Using feature prompts ({feature_prompt_variant}): {out_path}")
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[+] Device: {device}")
@@ -271,7 +296,11 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
         class_name_to_idx = {class_name.replace(' ', '_'): idx for idx, class_name in enumerate(class_names_dict)}
     
     # Create output directory with severity level
-    output_dir = Path(f"visualizations/individual_imagenetc/{corruption}_severity_{severity}")
+    output_dir_name = f"{corruption}_severity_{severity}"
+    if feature_prompt_path is not None:
+        # Keep outputs separate from non-feature runs. Include variant to avoid overwriting when comparing.
+        output_dir_name += f"_features_{feature_prompt_variant}"
+    output_dir = Path(f"visualizations/individual_imagenetc/{output_dir_name}")
     output_dir.mkdir(parents=True, exist_ok=True)
     print(f"[+] Output directory: {output_dir}")
     
@@ -347,7 +376,7 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     # Summary
     print("\n" + "="*80)
     print(f"[+] Generation Complete!")
-    print(f"  Dataset: ImageNet-C Corruptions")
+    print(f"  Dataset: ImageNet-C-100 Corruptions")
     print(f"  Corruption: {corruption} (severity {severity})")
     print(f"  Method: {'BATCLIP' if use_adaptation else 'Zero-shot CLIP'}")
     print(f"  Successful: {successful}/{total_images}")
@@ -362,8 +391,8 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate individual predictions for ImageNet-C corruptions')
-    parser.add_argument('--data-dir', type=str, default='ImageNet-C',
-                       help='Path to ImageNet-C corruptions folder')
+    parser.add_argument('--data-dir', type=str, default='ImageNet-C-100',
+                       help='Path to ImageNet-C-100 corruptions folder')
     parser.add_argument('--corruption', type=str, default='defocus_blur',
                        choices=['defocus_blur', 'glass_blur', 'motion_blur', 'zoom_blur',
                                'contrast', 'elastic_transform', 'jpeg_compression', 'pixelate',
@@ -378,14 +407,46 @@ if __name__ == "__main__":
                        help='Adaptation method: source=zero-shot, ours=BATCLIP, others=TTA methods')
     parser.add_argument('--batch-size', type=int, default=8,
                        help='Batch size for processing (required for TTA)')
+
+    # Feature-based prompt options
+    parser.add_argument('--feature-prompts', type=str, default=None,
+                        help='Path to imagenet100_dict.json (class->features) to build feature prompts and use PROMPT_MODE=cupl')
+    parser.add_argument('--feature-variant', type=str, default='has',
+                        choices=['has', 'may_or_may_not_have'],
+                        help="Feature prompt wording variant")
+    parser.add_argument('--feature-fallback', type=str, default='a photo of a {}.',
+                        help='Fallback template for classes not in the feature dict')
+    parser.add_argument('--feature-prompt-out', type=str, default=None,
+                        help='Where to write the generated CuPL-style prompt JSON (default: datasets/cupl_prompts/imagenet_feature_<variant>.json)')
+    parser.add_argument('--compare-feature-variants', action='store_true',
+                        help='If set, runs twice: variant=has and variant=may_or_may_not_have')
     
     args = parser.parse_args()
     
-    generate_individual_predictions(
-        data_dir=args.data_dir,
-        corruption=args.corruption,
-        severity=args.severity,
-        max_images=args.max_images,
-        adaptation_method=args.adaptation,
-        batch_size=args.batch_size
-    )
+    if args.compare_feature_variants and args.feature_prompts is not None:
+        for v in ['has', 'may_or_may_not_have']:
+            generate_individual_predictions(
+                data_dir=args.data_dir,
+                corruption=args.corruption,
+                severity=args.severity,
+                max_images=args.max_images,
+                adaptation_method=args.adaptation,
+                batch_size=args.batch_size,
+                feature_prompt_path=args.feature_prompts,
+                feature_prompt_variant=v,
+                feature_prompt_fallback=args.feature_fallback,
+                feature_prompt_out=args.feature_prompt_out,
+            )
+    else:
+        generate_individual_predictions(
+            data_dir=args.data_dir,
+            corruption=args.corruption,
+            severity=args.severity,
+            max_images=args.max_images,
+            adaptation_method=args.adaptation,
+            batch_size=args.batch_size,
+            feature_prompt_path=args.feature_prompts,
+            feature_prompt_variant=args.feature_variant,
+            feature_prompt_fallback=args.feature_fallback,
+            feature_prompt_out=args.feature_prompt_out,
+        )

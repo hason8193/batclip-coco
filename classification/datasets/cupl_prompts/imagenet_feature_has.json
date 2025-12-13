@@ -1,0 +1,2996 @@
+{
+  "tench": [
+    "a photo of a tench."
+  ],
+  "goldfish": [
+    "goldfish which has orange/gold scales, fins."
+  ],
+  "great white shark": [
+    "great white shark which has conical snout, serrated triangular teeth, grey dorsal side, white ventral side."
+  ],
+  "tiger shark": [
+    "a photo of a tiger shark."
+  ],
+  "hammerhead shark": [
+    "hammerhead shark which has hammer-shaped head, eyes on ends of 'hammer', dorsal fin."
+  ],
+  "electric ray": [
+    "a photo of a electric ray."
+  ],
+  "stingray": [
+    "a photo of a stingray."
+  ],
+  "rooster": [
+    "a photo of a rooster."
+  ],
+  "hen": [
+    "a photo of a hen."
+  ],
+  "ostrich": [
+    "a photo of a ostrich."
+  ],
+  "brambling": [
+    "a photo of a brambling."
+  ],
+  "goldfinch": [
+    "a photo of a goldfinch."
+  ],
+  "house finch": [
+    "a photo of a house finch."
+  ],
+  "junco": [
+    "a photo of a junco."
+  ],
+  "indigo bunting": [
+    "a photo of a indigo bunting."
+  ],
+  "American robin": [
+    "a photo of a American robin."
+  ],
+  "bulbul": [
+    "a photo of a bulbul."
+  ],
+  "jay": [
+    "a photo of a jay."
+  ],
+  "magpie": [
+    "a photo of a magpie."
+  ],
+  "chickadee": [
+    "a photo of a chickadee."
+  ],
+  "American dipper": [
+    "a photo of a American dipper."
+  ],
+  "kite (bird of prey)": [
+    "a photo of a kite (bird of prey)."
+  ],
+  "bald eagle": [
+    "bald eagle which has white head, white tail, dark brown body, yellow beak, talons."
+  ],
+  "vulture": [
+    "a photo of a vulture."
+  ],
+  "great grey owl": [
+    "great grey owl which has large facial disk, grey plumage, yellow eyes, no ear tufts."
+  ],
+  "fire salamander": [
+    "a photo of a fire salamander."
+  ],
+  "smooth newt": [
+    "a photo of a smooth newt."
+  ],
+  "newt": [
+    "a photo of a newt."
+  ],
+  "spotted salamander": [
+    "a photo of a spotted salamander."
+  ],
+  "axolotl": [
+    "a photo of a axolotl."
+  ],
+  "American bullfrog": [
+    "a photo of a American bullfrog."
+  ],
+  "tree frog": [
+    "a photo of a tree frog."
+  ],
+  "tailed frog": [
+    "a photo of a tailed frog."
+  ],
+  "loggerhead sea turtle": [
+    "a photo of a loggerhead sea turtle."
+  ],
+  "leatherback sea turtle": [
+    "a photo of a leatherback sea turtle."
+  ],
+  "mud turtle": [
+    "a photo of a mud turtle."
+  ],
+  "terrapin": [
+    "a photo of a terrapin."
+  ],
+  "box turtle": [
+    "a photo of a box turtle."
+  ],
+  "banded gecko": [
+    "a photo of a banded gecko."
+  ],
+  "green iguana": [
+    "green iguana which has green scales, dewlap, spiny dorsal crest, long tail."
+  ],
+  "Carolina anole": [
+    "a photo of a Carolina anole."
+  ],
+  "desert grassland whiptail lizard": [
+    "a photo of a desert grassland whiptail lizard."
+  ],
+  "agama": [
+    "a photo of a agama."
+  ],
+  "frilled-necked lizard": [
+    "a photo of a frilled-necked lizard."
+  ],
+  "alligator lizard": [
+    "a photo of a alligator lizard."
+  ],
+  "Gila monster": [
+    "a photo of a Gila monster."
+  ],
+  "European green lizard": [
+    "a photo of a European green lizard."
+  ],
+  "chameleon": [
+    "chameleon which has changeable skin color, turret eyes, long prehensile tongue, zygodactyl feet."
+  ],
+  "Komodo dragon": [
+    "a photo of a Komodo dragon."
+  ],
+  "Nile crocodile": [
+    "a photo of a Nile crocodile."
+  ],
+  "American alligator": [
+    "American alligator which has dark scales, broad rounded snout, visible teeth, powerful tail, dorsal scutes."
+  ],
+  "triceratops": [
+    "a photo of a triceratops."
+  ],
+  "worm snake": [
+    "a photo of a worm snake."
+  ],
+  "ring-necked snake": [
+    "a photo of a ring-necked snake."
+  ],
+  "eastern hog-nosed snake": [
+    "a photo of a eastern hog-nosed snake."
+  ],
+  "smooth green snake": [
+    "a photo of a smooth green snake."
+  ],
+  "kingsnake": [
+    "a photo of a kingsnake."
+  ],
+  "garter snake": [
+    "a photo of a garter snake."
+  ],
+  "water snake": [
+    "a photo of a water snake."
+  ],
+  "vine snake": [
+    "a photo of a vine snake."
+  ],
+  "night snake": [
+    "a photo of a night snake."
+  ],
+  "boa constrictor": [
+    "a photo of a boa constrictor."
+  ],
+  "African rock python": [
+    "a photo of a African rock python."
+  ],
+  "Indian cobra": [
+    "a photo of a Indian cobra."
+  ],
+  "green mamba": [
+    "a photo of a green mamba."
+  ],
+  "sea snake": [
+    "a photo of a sea snake."
+  ],
+  "Saharan horned viper": [
+    "a photo of a Saharan horned viper."
+  ],
+  "eastern diamondback rattlesnake": [
+    "a photo of a eastern diamondback rattlesnake."
+  ],
+  "sidewinder rattlesnake": [
+    "a photo of a sidewinder rattlesnake."
+  ],
+  "trilobite": [
+    "a photo of a trilobite."
+  ],
+  "harvestman": [
+    "a photo of a harvestman."
+  ],
+  "scorpion": [
+    "a photo of a scorpion."
+  ],
+  "yellow garden spider": [
+    "a photo of a yellow garden spider."
+  ],
+  "barn spider": [
+    "a photo of a barn spider."
+  ],
+  "European garden spider": [
+    "a photo of a European garden spider."
+  ],
+  "southern black widow": [
+    "a photo of a southern black widow."
+  ],
+  "tarantula": [
+    "a photo of a tarantula."
+  ],
+  "wolf spider": [
+    "a photo of a wolf spider."
+  ],
+  "tick": [
+    "a photo of a tick."
+  ],
+  "centipede": [
+    "a photo of a centipede."
+  ],
+  "black grouse": [
+    "a photo of a black grouse."
+  ],
+  "ptarmigan": [
+    "a photo of a ptarmigan."
+  ],
+  "ruffed grouse": [
+    "a photo of a ruffed grouse."
+  ],
+  "prairie grouse": [
+    "a photo of a prairie grouse."
+  ],
+  "peafowl": [
+    "a photo of a peafowl."
+  ],
+  "quail": [
+    "a photo of a quail."
+  ],
+  "partridge": [
+    "a photo of a partridge."
+  ],
+  "african grey parrot": [
+    "a photo of a african grey parrot."
+  ],
+  "macaw": [
+    "a photo of a macaw."
+  ],
+  "sulphur-crested cockatoo": [
+    "a photo of a sulphur-crested cockatoo."
+  ],
+  "lorikeet": [
+    "a photo of a lorikeet."
+  ],
+  "coucal": [
+    "a photo of a coucal."
+  ],
+  "bee eater": [
+    "a photo of a bee eater."
+  ],
+  "hornbill": [
+    "a photo of a hornbill."
+  ],
+  "hummingbird": [
+    "hummingbird which has small size, long slender beak, rapidly beating wings, iridescent feathers."
+  ],
+  "jacamar": [
+    "a photo of a jacamar."
+  ],
+  "toucan": [
+    "toucan which has large colorful bill, bright plumage, short stocky body."
+  ],
+  "duck": [
+    "a photo of a duck."
+  ],
+  "red-breasted merganser": [
+    "a photo of a red-breasted merganser."
+  ],
+  "goose": [
+    "a photo of a goose."
+  ],
+  "black swan": [
+    "a photo of a black swan."
+  ],
+  "tusker": [
+    "a photo of a tusker."
+  ],
+  "echidna": [
+    "a photo of a echidna."
+  ],
+  "platypus": [
+    "a photo of a platypus."
+  ],
+  "wallaby": [
+    "a photo of a wallaby."
+  ],
+  "koala": [
+    "koala which has large round head, big furry ears, large black nose, grey-brown fur, stout tailless body."
+  ],
+  "wombat": [
+    "a photo of a wombat."
+  ],
+  "jellyfish": [
+    "jellyfish which has bell-shaped body, tentacles, gelatinous texture, translucent appearance."
+  ],
+  "sea anemone": [
+    "a photo of a sea anemone."
+  ],
+  "brain coral": [
+    "a photo of a brain coral."
+  ],
+  "flatworm": [
+    "a photo of a flatworm."
+  ],
+  "nematode": [
+    "a photo of a nematode."
+  ],
+  "conch": [
+    "a photo of a conch."
+  ],
+  "snail": [
+    "a photo of a snail."
+  ],
+  "slug": [
+    "a photo of a slug."
+  ],
+  "sea slug": [
+    "a photo of a sea slug."
+  ],
+  "chiton": [
+    "a photo of a chiton."
+  ],
+  "chambered nautilus": [
+    "a photo of a chambered nautilus."
+  ],
+  "Dungeness crab": [
+    "a photo of a Dungeness crab."
+  ],
+  "rock crab": [
+    "a photo of a rock crab."
+  ],
+  "fiddler crab": [
+    "a photo of a fiddler crab."
+  ],
+  "red king crab": [
+    "a photo of a red king crab."
+  ],
+  "American lobster": [
+    "a photo of a American lobster."
+  ],
+  "spiny lobster": [
+    "a photo of a spiny lobster."
+  ],
+  "crayfish": [
+    "a photo of a crayfish."
+  ],
+  "hermit crab": [
+    "a photo of a hermit crab."
+  ],
+  "isopod": [
+    "a photo of a isopod."
+  ],
+  "white stork": [
+    "a photo of a white stork."
+  ],
+  "black stork": [
+    "a photo of a black stork."
+  ],
+  "spoonbill": [
+    "a photo of a spoonbill."
+  ],
+  "flamingo": [
+    "flamingo which has pink feathers, long thin legs, long S-shaped neck, down-curved beak."
+  ],
+  "little blue heron": [
+    "a photo of a little blue heron."
+  ],
+  "great egret": [
+    "a photo of a great egret."
+  ],
+  "bittern bird": [
+    "a photo of a bittern bird."
+  ],
+  "crane bird": [
+    "a photo of a crane bird."
+  ],
+  "limpkin": [
+    "a photo of a limpkin."
+  ],
+  "common gallinule": [
+    "a photo of a common gallinule."
+  ],
+  "American coot": [
+    "a photo of a American coot."
+  ],
+  "bustard": [
+    "a photo of a bustard."
+  ],
+  "ruddy turnstone": [
+    "a photo of a ruddy turnstone."
+  ],
+  "dunlin": [
+    "a photo of a dunlin."
+  ],
+  "common redshank": [
+    "a photo of a common redshank."
+  ],
+  "dowitcher": [
+    "a photo of a dowitcher."
+  ],
+  "oystercatcher": [
+    "a photo of a oystercatcher."
+  ],
+  "pelican": [
+    "pelican which has large throat pouch, long bill, webbed feet, large wingspan."
+  ],
+  "king penguin": [
+    "king penguin which has orange-yellow ear patches, vivid orange lower mandible, tall upright posture, black back, white chest."
+  ],
+  "albatross": [
+    "albatross which has long narrow wings, large hooked beak, webbed feet, pelagic."
+  ],
+  "grey whale": [
+    "grey whale which has mottled grey skin, barnacles, knuckles on dorsal ridge, large fluke."
+  ],
+  "killer whale": [
+    "killer whale which has black and white coloration, large dorsal fin, white eyepatch, saddle patch, streamlined body."
+  ],
+  "dugong": [
+    "dugong which has plump body, fluked tail, paddle-like front flippers, down-turned snout, thick skin."
+  ],
+  "sea lion": [
+    "sea lion which has external ear flaps, long foreflippers, ability to walk on all fours, short thick hair, big chest and belly."
+  ],
+  "Chihuahua": [
+    "a photo of a Chihuahua."
+  ],
+  "Japanese Chin": [
+    "a photo of a Japanese Chin."
+  ],
+  "Maltese": [
+    "a photo of a Maltese."
+  ],
+  "Pekingese": [
+    "a photo of a Pekingese."
+  ],
+  "Shih Tzu": [
+    "a photo of a Shih Tzu."
+  ],
+  "King Charles Spaniel": [
+    "a photo of a King Charles Spaniel."
+  ],
+  "Papillon": [
+    "a photo of a Papillon."
+  ],
+  "toy terrier": [
+    "a photo of a toy terrier."
+  ],
+  "Rhodesian Ridgeback": [
+    "a photo of a Rhodesian Ridgeback."
+  ],
+  "Afghan Hound": [
+    "a photo of a Afghan Hound."
+  ],
+  "Basset Hound": [
+    "a photo of a Basset Hound."
+  ],
+  "Beagle": [
+    "a photo of a Beagle."
+  ],
+  "Bloodhound": [
+    "a photo of a Bloodhound."
+  ],
+  "Bluetick Coonhound": [
+    "a photo of a Bluetick Coonhound."
+  ],
+  "Black and Tan Coonhound": [
+    "a photo of a Black and Tan Coonhound."
+  ],
+  "Treeing Walker Coonhound": [
+    "a photo of a Treeing Walker Coonhound."
+  ],
+  "English foxhound": [
+    "a photo of a English foxhound."
+  ],
+  "Redbone Coonhound": [
+    "a photo of a Redbone Coonhound."
+  ],
+  "borzoi": [
+    "a photo of a borzoi."
+  ],
+  "Irish Wolfhound": [
+    "a photo of a Irish Wolfhound."
+  ],
+  "Italian Greyhound": [
+    "a photo of a Italian Greyhound."
+  ],
+  "Whippet": [
+    "a photo of a Whippet."
+  ],
+  "Ibizan Hound": [
+    "a photo of a Ibizan Hound."
+  ],
+  "Norwegian Elkhound": [
+    "a photo of a Norwegian Elkhound."
+  ],
+  "Otterhound": [
+    "a photo of a Otterhound."
+  ],
+  "Saluki": [
+    "a photo of a Saluki."
+  ],
+  "Scottish Deerhound": [
+    "a photo of a Scottish Deerhound."
+  ],
+  "Weimaraner": [
+    "a photo of a Weimaraner."
+  ],
+  "Staffordshire Bull Terrier": [
+    "a photo of a Staffordshire Bull Terrier."
+  ],
+  "American Staffordshire Terrier": [
+    "a photo of a American Staffordshire Terrier."
+  ],
+  "Bedlington Terrier": [
+    "a photo of a Bedlington Terrier."
+  ],
+  "Border Terrier": [
+    "a photo of a Border Terrier."
+  ],
+  "Kerry Blue Terrier": [
+    "a photo of a Kerry Blue Terrier."
+  ],
+  "Irish Terrier": [
+    "a photo of a Irish Terrier."
+  ],
+  "Norfolk Terrier": [
+    "a photo of a Norfolk Terrier."
+  ],
+  "Norwich Terrier": [
+    "a photo of a Norwich Terrier."
+  ],
+  "Yorkshire Terrier": [
+    "a photo of a Yorkshire Terrier."
+  ],
+  "Wire Fox Terrier": [
+    "a photo of a Wire Fox Terrier."
+  ],
+  "Lakeland Terrier": [
+    "a photo of a Lakeland Terrier."
+  ],
+  "Sealyham Terrier": [
+    "a photo of a Sealyham Terrier."
+  ],
+  "Airedale Terrier": [
+    "a photo of a Airedale Terrier."
+  ],
+  "Cairn Terrier": [
+    "a photo of a Cairn Terrier."
+  ],
+  "Australian Terrier": [
+    "a photo of a Australian Terrier."
+  ],
+  "Dandie Dinmont Terrier": [
+    "a photo of a Dandie Dinmont Terrier."
+  ],
+  "Boston Terrier": [
+    "a photo of a Boston Terrier."
+  ],
+  "Miniature Schnauzer": [
+    "a photo of a Miniature Schnauzer."
+  ],
+  "Giant Schnauzer": [
+    "a photo of a Giant Schnauzer."
+  ],
+  "Standard Schnauzer": [
+    "a photo of a Standard Schnauzer."
+  ],
+  "Scottish Terrier": [
+    "a photo of a Scottish Terrier."
+  ],
+  "Tibetan Terrier": [
+    "a photo of a Tibetan Terrier."
+  ],
+  "Australian Silky Terrier": [
+    "a photo of a Australian Silky Terrier."
+  ],
+  "Soft-coated Wheaten Terrier": [
+    "a photo of a Soft-coated Wheaten Terrier."
+  ],
+  "West Highland White Terrier": [
+    "a photo of a West Highland White Terrier."
+  ],
+  "Lhasa Apso": [
+    "a photo of a Lhasa Apso."
+  ],
+  "Flat-Coated Retriever": [
+    "a photo of a Flat-Coated Retriever."
+  ],
+  "Curly-coated Retriever": [
+    "a photo of a Curly-coated Retriever."
+  ],
+  "Golden Retriever": [
+    "Golden Retriever which has golden fur, friendly expression, feathery tail, droopy ears."
+  ],
+  "Labrador Retriever": [
+    "a photo of a Labrador Retriever."
+  ],
+  "Chesapeake Bay Retriever": [
+    "a photo of a Chesapeake Bay Retriever."
+  ],
+  "German Shorthaired Pointer": [
+    "a photo of a German Shorthaired Pointer."
+  ],
+  "Vizsla": [
+    "a photo of a Vizsla."
+  ],
+  "English Setter": [
+    "a photo of a English Setter."
+  ],
+  "Irish Setter": [
+    "a photo of a Irish Setter."
+  ],
+  "Gordon Setter": [
+    "a photo of a Gordon Setter."
+  ],
+  "Brittany dog": [
+    "a photo of a Brittany dog."
+  ],
+  "Clumber Spaniel": [
+    "a photo of a Clumber Spaniel."
+  ],
+  "English Springer Spaniel": [
+    "a photo of a English Springer Spaniel."
+  ],
+  "Welsh Springer Spaniel": [
+    "a photo of a Welsh Springer Spaniel."
+  ],
+  "Cocker Spaniel": [
+    "a photo of a Cocker Spaniel."
+  ],
+  "Sussex Spaniel": [
+    "a photo of a Sussex Spaniel."
+  ],
+  "Irish Water Spaniel": [
+    "a photo of a Irish Water Spaniel."
+  ],
+  "Kuvasz": [
+    "a photo of a Kuvasz."
+  ],
+  "Schipperke": [
+    "a photo of a Schipperke."
+  ],
+  "Groenendael dog": [
+    "a photo of a Groenendael dog."
+  ],
+  "Malinois": [
+    "a photo of a Malinois."
+  ],
+  "Briard": [
+    "a photo of a Briard."
+  ],
+  "Australian Kelpie": [
+    "a photo of a Australian Kelpie."
+  ],
+  "Komondor": [
+    "a photo of a Komondor."
+  ],
+  "Old English Sheepdog": [
+    "a photo of a Old English Sheepdog."
+  ],
+  "Shetland Sheepdog": [
+    "a photo of a Shetland Sheepdog."
+  ],
+  "collie": [
+    "a photo of a collie."
+  ],
+  "Border Collie": [
+    "a photo of a Border Collie."
+  ],
+  "Bouvier des Flandres dog": [
+    "a photo of a Bouvier des Flandres dog."
+  ],
+  "Rottweiler": [
+    "a photo of a Rottweiler."
+  ],
+  "German Shepherd Dog": [
+    "German Shepherd Dog which has pointed ears, long muzzle, bushy tail, thick coat, black and tan coloration."
+  ],
+  "Dobermann": [
+    "a photo of a Dobermann."
+  ],
+  "Miniature Pinscher": [
+    "a photo of a Miniature Pinscher."
+  ],
+  "Greater Swiss Mountain Dog": [
+    "a photo of a Greater Swiss Mountain Dog."
+  ],
+  "Bernese Mountain Dog": [
+    "a photo of a Bernese Mountain Dog."
+  ],
+  "Appenzeller Sennenhund": [
+    "a photo of a Appenzeller Sennenhund."
+  ],
+  "Entlebucher Sennenhund": [
+    "a photo of a Entlebucher Sennenhund."
+  ],
+  "Boxer": [
+    "a photo of a Boxer."
+  ],
+  "Bullmastiff": [
+    "a photo of a Bullmastiff."
+  ],
+  "Tibetan Mastiff": [
+    "a photo of a Tibetan Mastiff."
+  ],
+  "French Bulldog": [
+    "a photo of a French Bulldog."
+  ],
+  "Great Dane": [
+    "a photo of a Great Dane."
+  ],
+  "St. Bernard": [
+    "a photo of a St. Bernard."
+  ],
+  "husky": [
+    "a photo of a husky."
+  ],
+  "Alaskan Malamute": [
+    "a photo of a Alaskan Malamute."
+  ],
+  "Siberian Husky": [
+    "Siberian Husky which has thick double coat, erect triangular ears, almond-shaped eyes, bushy tail carried over back, wolf-like appearance."
+  ],
+  "Dalmatian": [
+    "a photo of a Dalmatian."
+  ],
+  "Affenpinscher": [
+    "a photo of a Affenpinscher."
+  ],
+  "Basenji": [
+    "a photo of a Basenji."
+  ],
+  "pug": [
+    "a photo of a pug."
+  ],
+  "Leonberger": [
+    "a photo of a Leonberger."
+  ],
+  "Newfoundland dog": [
+    "a photo of a Newfoundland dog."
+  ],
+  "Great Pyrenees dog": [
+    "a photo of a Great Pyrenees dog."
+  ],
+  "Samoyed": [
+    "a photo of a Samoyed."
+  ],
+  "Pomeranian": [
+    "a photo of a Pomeranian."
+  ],
+  "Chow Chow": [
+    "a photo of a Chow Chow."
+  ],
+  "Keeshond": [
+    "a photo of a Keeshond."
+  ],
+  "brussels griffon": [
+    "a photo of a brussels griffon."
+  ],
+  "Pembroke Welsh Corgi": [
+    "a photo of a Pembroke Welsh Corgi."
+  ],
+  "Cardigan Welsh Corgi": [
+    "a photo of a Cardigan Welsh Corgi."
+  ],
+  "Toy Poodle": [
+    "a photo of a Toy Poodle."
+  ],
+  "Miniature Poodle": [
+    "a photo of a Miniature Poodle."
+  ],
+  "Standard Poodle": [
+    "a photo of a Standard Poodle."
+  ],
+  "Mexican hairless dog (xoloitzcuintli)": [
+    "a photo of a Mexican hairless dog (xoloitzcuintli)."
+  ],
+  "grey wolf": [
+    "a photo of a grey wolf."
+  ],
+  "Alaskan tundra wolf": [
+    "a photo of a Alaskan tundra wolf."
+  ],
+  "red wolf or maned wolf": [
+    "a photo of a red wolf or maned wolf."
+  ],
+  "coyote": [
+    "a photo of a coyote."
+  ],
+  "dingo": [
+    "a photo of a dingo."
+  ],
+  "dhole": [
+    "a photo of a dhole."
+  ],
+  "African wild dog": [
+    "a photo of a African wild dog."
+  ],
+  "hyena": [
+    "a photo of a hyena."
+  ],
+  "red fox": [
+    "a photo of a red fox."
+  ],
+  "kit fox": [
+    "a photo of a kit fox."
+  ],
+  "Arctic fox": [
+    "a photo of a Arctic fox."
+  ],
+  "grey fox": [
+    "a photo of a grey fox."
+  ],
+  "tabby cat": [
+    "a photo of a tabby cat."
+  ],
+  "tiger cat": [
+    "a photo of a tiger cat."
+  ],
+  "Persian cat": [
+    "a photo of a Persian cat."
+  ],
+  "Siamese cat": [
+    "a photo of a Siamese cat."
+  ],
+  "Egyptian Mau": [
+    "a photo of a Egyptian Mau."
+  ],
+  "cougar": [
+    "a photo of a cougar."
+  ],
+  "lynx": [
+    "a photo of a lynx."
+  ],
+  "leopard": [
+    "leopard which has rosetted spots, slender body, long tail, powerful build."
+  ],
+  "snow leopard": [
+    "a photo of a snow leopard."
+  ],
+  "jaguar": [
+    "jaguar which has rosetted spots, stocky build, large head, powerful jaws."
+  ],
+  "lion": [
+    "lion which has tawny fur, tufted tail, powerful build."
+  ],
+  "tiger": [
+    "tiger which has orange fur, black stripes, powerful build, white belly."
+  ],
+  "cheetah": [
+    "cheetah which has golden-yellow coat, solid black spots, black tear stripes, slender body, long tail."
+  ],
+  "brown bear": [
+    "brown bear which has shaggy brown fur, hump on shoulders, claws, short rounded ears."
+  ],
+  "American black bear": [
+    "a photo of a American black bear."
+  ],
+  "polar bear": [
+    "polar bear which has white fur, thick layer of blubber, large paws, short tail."
+  ],
+  "sloth bear": [
+    "a photo of a sloth bear."
+  ],
+  "mongoose": [
+    "a photo of a mongoose."
+  ],
+  "meerkat": [
+    "a photo of a meerkat."
+  ],
+  "tiger beetle": [
+    "a photo of a tiger beetle."
+  ],
+  "ladybug": [
+    "a photo of a ladybug."
+  ],
+  "ground beetle": [
+    "a photo of a ground beetle."
+  ],
+  "longhorn beetle": [
+    "a photo of a longhorn beetle."
+  ],
+  "leaf beetle": [
+    "a photo of a leaf beetle."
+  ],
+  "dung beetle": [
+    "a photo of a dung beetle."
+  ],
+  "rhinoceros beetle": [
+    "a photo of a rhinoceros beetle."
+  ],
+  "weevil": [
+    "a photo of a weevil."
+  ],
+  "fly": [
+    "a photo of a fly."
+  ],
+  "bee": [
+    "a photo of a bee."
+  ],
+  "ant": [
+    "a photo of a ant."
+  ],
+  "grasshopper": [
+    "a photo of a grasshopper."
+  ],
+  "cricket insect": [
+    "a photo of a cricket insect."
+  ],
+  "stick insect": [
+    "a photo of a stick insect."
+  ],
+  "cockroach": [
+    "a photo of a cockroach."
+  ],
+  "praying mantis": [
+    "a photo of a praying mantis."
+  ],
+  "cicada": [
+    "a photo of a cicada."
+  ],
+  "leafhopper": [
+    "a photo of a leafhopper."
+  ],
+  "lacewing": [
+    "a photo of a lacewing."
+  ],
+  "dragonfly": [
+    "a photo of a dragonfly."
+  ],
+  "damselfly": [
+    "a photo of a damselfly."
+  ],
+  "red admiral butterfly": [
+    "a photo of a red admiral butterfly."
+  ],
+  "ringlet butterfly": [
+    "a photo of a ringlet butterfly."
+  ],
+  "monarch butterfly": [
+    "a photo of a monarch butterfly."
+  ],
+  "small white butterfly": [
+    "a photo of a small white butterfly."
+  ],
+  "sulphur butterfly": [
+    "a photo of a sulphur butterfly."
+  ],
+  "gossamer-winged butterfly": [
+    "a photo of a gossamer-winged butterfly."
+  ],
+  "starfish": [
+    "a photo of a starfish."
+  ],
+  "sea urchin": [
+    "a photo of a sea urchin."
+  ],
+  "sea cucumber": [
+    "a photo of a sea cucumber."
+  ],
+  "cottontail rabbit": [
+    "a photo of a cottontail rabbit."
+  ],
+  "hare": [
+    "a photo of a hare."
+  ],
+  "Angora rabbit": [
+    "a photo of a Angora rabbit."
+  ],
+  "hamster": [
+    "a photo of a hamster."
+  ],
+  "porcupine": [
+    "a photo of a porcupine."
+  ],
+  "fox squirrel": [
+    "a photo of a fox squirrel."
+  ],
+  "marmot": [
+    "a photo of a marmot."
+  ],
+  "beaver": [
+    "a photo of a beaver."
+  ],
+  "guinea pig": [
+    "a photo of a guinea pig."
+  ],
+  "common sorrel horse": [
+    "a photo of a common sorrel horse."
+  ],
+  "zebra": [
+    "a photo of a zebra."
+  ],
+  "pig": [
+    "a photo of a pig."
+  ],
+  "wild boar": [
+    "a photo of a wild boar."
+  ],
+  "warthog": [
+    "a photo of a warthog."
+  ],
+  "hippopotamus": [
+    "a photo of a hippopotamus."
+  ],
+  "ox": [
+    "a photo of a ox."
+  ],
+  "water buffalo": [
+    "a photo of a water buffalo."
+  ],
+  "bison": [
+    "a photo of a bison."
+  ],
+  "ram (adult male sheep)": [
+    "a photo of a ram (adult male sheep)."
+  ],
+  "bighorn sheep": [
+    "a photo of a bighorn sheep."
+  ],
+  "Alpine ibex": [
+    "a photo of a Alpine ibex."
+  ],
+  "hartebeest": [
+    "a photo of a hartebeest."
+  ],
+  "impala (antelope)": [
+    "a photo of a impala (antelope)."
+  ],
+  "gazelle": [
+    "a photo of a gazelle."
+  ],
+  "arabian camel": [
+    "a photo of a arabian camel."
+  ],
+  "llama": [
+    "a photo of a llama."
+  ],
+  "weasel": [
+    "a photo of a weasel."
+  ],
+  "mink": [
+    "a photo of a mink."
+  ],
+  "European polecat": [
+    "a photo of a European polecat."
+  ],
+  "black-footed ferret": [
+    "a photo of a black-footed ferret."
+  ],
+  "otter": [
+    "a photo of a otter."
+  ],
+  "skunk": [
+    "a photo of a skunk."
+  ],
+  "badger": [
+    "a photo of a badger."
+  ],
+  "armadillo": [
+    "a photo of a armadillo."
+  ],
+  "three-toed sloth": [
+    "a photo of a three-toed sloth."
+  ],
+  "orangutan": [
+    "orangutan which has long reddish-brown hair, long arms, bare face."
+  ],
+  "gorilla": [
+    "gorilla which has large muscular build, dark fur, pronounced brow ridge."
+  ],
+  "chimpanzee": [
+    "chimpanzee which has dark fur, bare face, long arms, opposable thumbs."
+  ],
+  "gibbon": [
+    "a photo of a gibbon."
+  ],
+  "siamang": [
+    "a photo of a siamang."
+  ],
+  "guenon": [
+    "a photo of a guenon."
+  ],
+  "patas monkey": [
+    "a photo of a patas monkey."
+  ],
+  "baboon": [
+    "a photo of a baboon."
+  ],
+  "macaque": [
+    "a photo of a macaque."
+  ],
+  "langur": [
+    "a photo of a langur."
+  ],
+  "black-and-white colobus": [
+    "a photo of a black-and-white colobus."
+  ],
+  "proboscis monkey": [
+    "a photo of a proboscis monkey."
+  ],
+  "marmoset": [
+    "a photo of a marmoset."
+  ],
+  "white-headed capuchin": [
+    "a photo of a white-headed capuchin."
+  ],
+  "howler monkey": [
+    "a photo of a howler monkey."
+  ],
+  "titi monkey": [
+    "a photo of a titi monkey."
+  ],
+  "Geoffroy's spider monkey": [
+    "a photo of a Geoffroy's spider monkey."
+  ],
+  "common squirrel monkey": [
+    "a photo of a common squirrel monkey."
+  ],
+  "ring-tailed lemur": [
+    "a photo of a ring-tailed lemur."
+  ],
+  "indri": [
+    "a photo of a indri."
+  ],
+  "Asian elephant": [
+    "a photo of a Asian elephant."
+  ],
+  "African bush elephant": [
+    "a photo of a African bush elephant."
+  ],
+  "red panda": [
+    "a photo of a red panda."
+  ],
+  "giant panda": [
+    "giant panda which has black and white fur, round ears, dark eye patches, stout body."
+  ],
+  "snoek fish": [
+    "a photo of a snoek fish."
+  ],
+  "eel": [
+    "a photo of a eel."
+  ],
+  "silver salmon": [
+    "a photo of a silver salmon."
+  ],
+  "rock beauty fish": [
+    "a photo of a rock beauty fish."
+  ],
+  "clownfish": [
+    "a photo of a clownfish."
+  ],
+  "sturgeon": [
+    "a photo of a sturgeon."
+  ],
+  "gar fish": [
+    "a photo of a gar fish."
+  ],
+  "lionfish": [
+    "a photo of a lionfish."
+  ],
+  "pufferfish": [
+    "a photo of a pufferfish."
+  ],
+  "abacus": [
+    "a photo of a abacus."
+  ],
+  "abaya": [
+    "a photo of a abaya."
+  ],
+  "academic gown": [
+    "a photo of a academic gown."
+  ],
+  "accordion": [
+    "a photo of a accordion."
+  ],
+  "acoustic guitar": [
+    "acoustic guitar which has hollow body, sound hole, six strings, fretboard, curved waist."
+  ],
+  "aircraft carrier": [
+    "a photo of a aircraft carrier."
+  ],
+  "airliner": [
+    "airliner which has cylindrical fuselage, wings, jet engines, tail fin, numerous windows."
+  ],
+  "airship": [
+    "a photo of a airship."
+  ],
+  "altar": [
+    "a photo of a altar."
+  ],
+  "ambulance": [
+    "ambulance which has siren, emergency lights, cross symbol, boxy rear compartment, distinctive markings."
+  ],
+  "amphibious vehicle": [
+    "a photo of a amphibious vehicle."
+  ],
+  "analog clock": [
+    "a photo of a analog clock."
+  ],
+  "apiary": [
+    "a photo of a apiary."
+  ],
+  "apron": [
+    "a photo of a apron."
+  ],
+  "trash can": [
+    "a photo of a trash can."
+  ],
+  "assault rifle": [
+    "a photo of a assault rifle."
+  ],
+  "backpack": [
+    "backpack which has shoulder straps, main compartment, zippers, fabric material, various pockets."
+  ],
+  "bakery": [
+    "a photo of a bakery."
+  ],
+  "balance beam": [
+    "a photo of a balance beam."
+  ],
+  "balloon": [
+    "a photo of a balloon."
+  ],
+  "ballpoint pen": [
+    "a photo of a ballpoint pen."
+  ],
+  "Band-Aid": [
+    "a photo of a Band-Aid."
+  ],
+  "banjo": [
+    "a photo of a banjo."
+  ],
+  "baluster / handrail": [
+    "a photo of a baluster / handrail."
+  ],
+  "barbell": [
+    "a photo of a barbell."
+  ],
+  "barber chair": [
+    "a photo of a barber chair."
+  ],
+  "barbershop": [
+    "a photo of a barbershop."
+  ],
+  "barn": [
+    "a photo of a barn."
+  ],
+  "barometer": [
+    "a photo of a barometer."
+  ],
+  "barrel": [
+    "a photo of a barrel."
+  ],
+  "wheelbarrow": [
+    "a photo of a wheelbarrow."
+  ],
+  "baseball": [
+    "baseball which has spherical shape, white leather cover, red stitching."
+  ],
+  "basketball": [
+    "basketball which has spherical shape, orange color, pebbled surface, black lines."
+  ],
+  "bassinet": [
+    "a photo of a bassinet."
+  ],
+  "bassoon": [
+    "a photo of a bassoon."
+  ],
+  "swimming cap": [
+    "a photo of a swimming cap."
+  ],
+  "bath towel": [
+    "a photo of a bath towel."
+  ],
+  "bathtub": [
+    "a photo of a bathtub."
+  ],
+  "station wagon": [
+    "a photo of a station wagon."
+  ],
+  "lighthouse": [
+    "lighthouse which has tall tower, bright light, coastal location, lantern room."
+  ],
+  "beaker": [
+    "a photo of a beaker."
+  ],
+  "military hat (bearskin or shako)": [
+    "a photo of a military hat (bearskin or shako)."
+  ],
+  "beer bottle": [
+    "beer bottle which has dark glass, cylindrical body, narrow neck, cap."
+  ],
+  "beer glass": [
+    "beer glass which has transparent glass."
+  ],
+  "bell tower": [
+    "a photo of a bell tower."
+  ],
+  "baby bib": [
+    "a photo of a baby bib."
+  ],
+  "tandem bicycle": [
+    "a photo of a tandem bicycle."
+  ],
+  "bikini": [
+    "a photo of a bikini."
+  ],
+  "ring binder": [
+    "a photo of a ring binder."
+  ],
+  "binoculars": [
+    "a photo of a binoculars."
+  ],
+  "birdhouse": [
+    "a photo of a birdhouse."
+  ],
+  "boathouse": [
+    "a photo of a boathouse."
+  ],
+  "bobsleigh": [
+    "a photo of a bobsleigh."
+  ],
+  "bolo tie": [
+    "a photo of a bolo tie."
+  ],
+  "poke bonnet": [
+    "a photo of a poke bonnet."
+  ],
+  "bookcase": [
+    "a photo of a bookcase."
+  ],
+  "bookstore": [
+    "a photo of a bookstore."
+  ],
+  "bottle cap": [
+    "a photo of a bottle cap."
+  ],
+  "hunting bow": [
+    "a photo of a hunting bow."
+  ],
+  "bow tie": [
+    "bow tie which has symmetrical knot, fabric material, worn around neck."
+  ],
+  "brass memorial plaque": [
+    "a photo of a brass memorial plaque."
+  ],
+  "bra": [
+    "a photo of a bra."
+  ],
+  "breakwater": [
+    "a photo of a breakwater."
+  ],
+  "breastplate": [
+    "a photo of a breastplate."
+  ],
+  "broom": [
+    "a photo of a broom."
+  ],
+  "bucket": [
+    "a photo of a bucket."
+  ],
+  "buckle": [
+    "a photo of a buckle."
+  ],
+  "bulletproof vest": [
+    "a photo of a bulletproof vest."
+  ],
+  "high-speed train": [
+    "a photo of a high-speed train."
+  ],
+  "butcher shop": [
+    "a photo of a butcher shop."
+  ],
+  "taxicab": [
+    "a photo of a taxicab."
+  ],
+  "cauldron": [
+    "a photo of a cauldron."
+  ],
+  "candle": [
+    "a photo of a candle."
+  ],
+  "cannon": [
+    "a photo of a cannon."
+  ],
+  "canoe": [
+    "a photo of a canoe."
+  ],
+  "can opener": [
+    "a photo of a can opener."
+  ],
+  "cardigan": [
+    "a photo of a cardigan."
+  ],
+  "car mirror": [
+    "a photo of a car mirror."
+  ],
+  "carousel": [
+    "a photo of a carousel."
+  ],
+  "tool kit": [
+    "a photo of a tool kit."
+  ],
+  "cardboard box / carton": [
+    "a photo of a cardboard box / carton."
+  ],
+  "car wheel": [
+    "a photo of a car wheel."
+  ],
+  "automated teller machine": [
+    "a photo of a automated teller machine."
+  ],
+  "cassette": [
+    "a photo of a cassette."
+  ],
+  "cassette player": [
+    "a photo of a cassette player."
+  ],
+  "castle": [
+    "castle which has turrets, battlements, stone walls."
+  ],
+  "catamaran": [
+    "a photo of a catamaran."
+  ],
+  "CD player": [
+    "a photo of a CD player."
+  ],
+  "cello": [
+    "a photo of a cello."
+  ],
+  "mobile phone": [
+    "a photo of a mobile phone."
+  ],
+  "chain": [
+    "a photo of a chain."
+  ],
+  "chain-link fence": [
+    "a photo of a chain-link fence."
+  ],
+  "chain mail": [
+    "a photo of a chain mail."
+  ],
+  "chainsaw": [
+    "a photo of a chainsaw."
+  ],
+  "storage chest": [
+    "a photo of a storage chest."
+  ],
+  "chiffonier": [
+    "a photo of a chiffonier."
+  ],
+  "bell or wind chime": [
+    "a photo of a bell or wind chime."
+  ],
+  "china cabinet": [
+    "a photo of a china cabinet."
+  ],
+  "Christmas stocking": [
+    "a photo of a Christmas stocking."
+  ],
+  "church": [
+    "church which has steeple, cross, stained glass windows."
+  ],
+  "movie theater": [
+    "a photo of a movie theater."
+  ],
+  "cleaver": [
+    "a photo of a cleaver."
+  ],
+  "cliff dwelling": [
+    "a photo of a cliff dwelling."
+  ],
+  "cloak": [
+    "a photo of a cloak."
+  ],
+  "clogs": [
+    "a photo of a clogs."
+  ],
+  "cocktail shaker": [
+    "a photo of a cocktail shaker."
+  ],
+  "coffee mug": [
+    "coffee mug which has cylindrical shape, handle, ceramic material."
+  ],
+  "coffeemaker": [
+    "a photo of a coffeemaker."
+  ],
+  "spiral or coil": [
+    "a photo of a spiral or coil."
+  ],
+  "combination lock": [
+    "a photo of a combination lock."
+  ],
+  "computer keyboard": [
+    "a photo of a computer keyboard."
+  ],
+  "candy store": [
+    "a photo of a candy store."
+  ],
+  "container ship": [
+    "a photo of a container ship."
+  ],
+  "convertible": [
+    "convertible which has retractable roof, two or four seats, automobile."
+  ],
+  "corkscrew": [
+    "a photo of a corkscrew."
+  ],
+  "cornet": [
+    "a photo of a cornet."
+  ],
+  "cowboy boot": [
+    "a photo of a cowboy boot."
+  ],
+  "cowboy hat": [
+    "cowboy hat which has high crown, wide brim, creased crown."
+  ],
+  "cradle": [
+    "a photo of a cradle."
+  ],
+  "construction crane": [
+    "a photo of a construction crane."
+  ],
+  "crash helmet": [
+    "a photo of a crash helmet."
+  ],
+  "crate": [
+    "a photo of a crate."
+  ],
+  "infant bed": [
+    "a photo of a infant bed."
+  ],
+  "Crock Pot": [
+    "a photo of a Crock Pot."
+  ],
+  "croquet ball": [
+    "a photo of a croquet ball."
+  ],
+  "crutch": [
+    "a photo of a crutch."
+  ],
+  "cuirass": [
+    "a photo of a cuirass."
+  ],
+  "dam": [
+    "a photo of a dam."
+  ],
+  "desk": [
+    "a photo of a desk."
+  ],
+  "desktop computer": [
+    "desktop computer which has monitor, keyboard, mouse, tower/case."
+  ],
+  "rotary dial telephone": [
+    "a photo of a rotary dial telephone."
+  ],
+  "diaper": [
+    "a photo of a diaper."
+  ],
+  "digital clock": [
+    "a photo of a digital clock."
+  ],
+  "digital watch": [
+    "a photo of a digital watch."
+  ],
+  "dining table": [
+    "a photo of a dining table."
+  ],
+  "dishcloth": [
+    "a photo of a dishcloth."
+  ],
+  "dishwasher": [
+    "a photo of a dishwasher."
+  ],
+  "disc brake": [
+    "a photo of a disc brake."
+  ],
+  "dock": [
+    "a photo of a dock."
+  ],
+  "dog sled": [
+    "a photo of a dog sled."
+  ],
+  "dome": [
+    "a photo of a dome."
+  ],
+  "doormat": [
+    "a photo of a doormat."
+  ],
+  "drilling rig": [
+    "a photo of a drilling rig."
+  ],
+  "drum": [
+    "drum which has cylindrical shell, drumheads."
+  ],
+  "drumstick": [
+    "a photo of a drumstick."
+  ],
+  "dumbbell": [
+    "a photo of a dumbbell."
+  ],
+  "Dutch oven": [
+    "a photo of a Dutch oven."
+  ],
+  "electric fan": [
+    "a photo of a electric fan."
+  ],
+  "electric guitar": [
+    "electric guitar which has solid body, pickups, six strings, fretboard, volume/tone knobs."
+  ],
+  "electric locomotive": [
+    "a photo of a electric locomotive."
+  ],
+  "entertainment center": [
+    "a photo of a entertainment center."
+  ],
+  "envelope": [
+    "a photo of a envelope."
+  ],
+  "espresso machine": [
+    "a photo of a espresso machine."
+  ],
+  "face powder": [
+    "a photo of a face powder."
+  ],
+  "feather boa": [
+    "a photo of a feather boa."
+  ],
+  "filing cabinet": [
+    "a photo of a filing cabinet."
+  ],
+  "fireboat": [
+    "a photo of a fireboat."
+  ],
+  "fire truck": [
+    "fire truck which has red color, ladders, hoses, siren, emergency lights."
+  ],
+  "fire screen": [
+    "a photo of a fire screen."
+  ],
+  "flagpole": [
+    "a photo of a flagpole."
+  ],
+  "flute": [
+    "flute which has cylindrical tube, side holes, keys/pads, mouthpiece."
+  ],
+  "folding chair": [
+    "a photo of a folding chair."
+  ],
+  "football helmet": [
+    "a photo of a football helmet."
+  ],
+  "forklift": [
+    "a photo of a forklift."
+  ],
+  "fountain": [
+    "fountain which has water jets, basin, sculptural elements."
+  ],
+  "fountain pen": [
+    "a photo of a fountain pen."
+  ],
+  "four-poster bed": [
+    "a photo of a four-poster bed."
+  ],
+  "freight car": [
+    "a photo of a freight car."
+  ],
+  "French horn": [
+    "a photo of a French horn."
+  ],
+  "frying pan": [
+    "a photo of a frying pan."
+  ],
+  "fur coat": [
+    "a photo of a fur coat."
+  ],
+  "garbage truck": [
+    "garbage truck which has large compactor, truck chassis."
+  ],
+  "gas mask or respirator": [
+    "a photo of a gas mask or respirator."
+  ],
+  "gas pump": [
+    "a photo of a gas pump."
+  ],
+  "goblet": [
+    "a photo of a goblet."
+  ],
+  "go-kart": [
+    "a photo of a go-kart."
+  ],
+  "golf ball": [
+    "golf ball which has spherical shape, dimpled surface, white color."
+  ],
+  "golf cart": [
+    "a photo of a golf cart."
+  ],
+  "gondola": [
+    "a photo of a gondola."
+  ],
+  "gong": [
+    "a photo of a gong."
+  ],
+  "gown": [
+    "a photo of a gown."
+  ],
+  "grand piano": [
+    "grand piano which has horizontal frame, long strings, large soundboard, three pedals, curved body."
+  ],
+  "greenhouse": [
+    "a photo of a greenhouse."
+  ],
+  "radiator grille": [
+    "a photo of a radiator grille."
+  ],
+  "grocery store": [
+    "a photo of a grocery store."
+  ],
+  "guillotine": [
+    "a photo of a guillotine."
+  ],
+  "hair clip": [
+    "a photo of a hair clip."
+  ],
+  "hair spray": [
+    "a photo of a hair spray."
+  ],
+  "half-track": [
+    "a photo of a half-track."
+  ],
+  "hammer": [
+    "a photo of a hammer."
+  ],
+  "hamper": [
+    "a photo of a hamper."
+  ],
+  "hair dryer": [
+    "a photo of a hair dryer."
+  ],
+  "hand-held computer": [
+    "a photo of a hand-held computer."
+  ],
+  "handkerchief": [
+    "a photo of a handkerchief."
+  ],
+  "hard disk drive": [
+    "a photo of a hard disk drive."
+  ],
+  "harmonica": [
+    "a photo of a harmonica."
+  ],
+  "harp": [
+    "a photo of a harp."
+  ],
+  "combine harvester": [
+    "a photo of a combine harvester."
+  ],
+  "hatchet": [
+    "a photo of a hatchet."
+  ],
+  "holster": [
+    "a photo of a holster."
+  ],
+  "home theater": [
+    "a photo of a home theater."
+  ],
+  "honeycomb": [
+    "a photo of a honeycomb."
+  ],
+  "hook": [
+    "a photo of a hook."
+  ],
+  "hoop skirt": [
+    "a photo of a hoop skirt."
+  ],
+  "gymnastic horizontal bar": [
+    "a photo of a gymnastic horizontal bar."
+  ],
+  "horse-drawn vehicle": [
+    "a photo of a horse-drawn vehicle."
+  ],
+  "hourglass": [
+    "a photo of a hourglass."
+  ],
+  "iPod": [
+    "a photo of a iPod."
+  ],
+  "clothes iron": [
+    "a photo of a clothes iron."
+  ],
+  "carved pumpkin": [
+    "a photo of a carved pumpkin."
+  ],
+  "jeans": [
+    "a photo of a jeans."
+  ],
+  "jeep": [
+    "a photo of a jeep."
+  ],
+  "T-shirt": [
+    "a photo of a T-shirt."
+  ],
+  "jigsaw puzzle": [
+    "a photo of a jigsaw puzzle."
+  ],
+  "rickshaw": [
+    "a photo of a rickshaw."
+  ],
+  "joystick": [
+    "a photo of a joystick."
+  ],
+  "kimono": [
+    "a photo of a kimono."
+  ],
+  "knee pad": [
+    "a photo of a knee pad."
+  ],
+  "knot": [
+    "a photo of a knot."
+  ],
+  "lab coat": [
+    "a photo of a lab coat."
+  ],
+  "ladle": [
+    "a photo of a ladle."
+  ],
+  "lampshade": [
+    "a photo of a lampshade."
+  ],
+  "laptop computer": [
+    "laptop computer which has clamshell design, integrated keyboard, integrated screen, trackpad, portable."
+  ],
+  "lawn mower": [
+    "a photo of a lawn mower."
+  ],
+  "lens cap": [
+    "a photo of a lens cap."
+  ],
+  "letter opener": [
+    "a photo of a letter opener."
+  ],
+  "library": [
+    "a photo of a library."
+  ],
+  "lifeboat": [
+    "a photo of a lifeboat."
+  ],
+  "lighter": [
+    "a photo of a lighter."
+  ],
+  "limousine": [
+    "a photo of a limousine."
+  ],
+  "ocean liner": [
+    "a photo of a ocean liner."
+  ],
+  "lipstick": [
+    "a photo of a lipstick."
+  ],
+  "slip-on shoe": [
+    "a photo of a slip-on shoe."
+  ],
+  "lotion": [
+    "a photo of a lotion."
+  ],
+  "music speaker": [
+    "a photo of a music speaker."
+  ],
+  "loupe magnifying glass": [
+    "a photo of a loupe magnifying glass."
+  ],
+  "sawmill": [
+    "a photo of a sawmill."
+  ],
+  "magnetic compass": [
+    "a photo of a magnetic compass."
+  ],
+  "messenger bag": [
+    "a photo of a messenger bag."
+  ],
+  "mailbox": [
+    "a photo of a mailbox."
+  ],
+  "tights": [
+    "a photo of a tights."
+  ],
+  "one-piece bathing suit": [
+    "a photo of a one-piece bathing suit."
+  ],
+  "manhole cover": [
+    "a photo of a manhole cover."
+  ],
+  "maraca": [
+    "a photo of a maraca."
+  ],
+  "marimba": [
+    "a photo of a marimba."
+  ],
+  "mask": [
+    "a photo of a mask."
+  ],
+  "matchstick": [
+    "a photo of a matchstick."
+  ],
+  "maypole": [
+    "a photo of a maypole."
+  ],
+  "maze": [
+    "a photo of a maze."
+  ],
+  "measuring cup": [
+    "a photo of a measuring cup."
+  ],
+  "medicine cabinet": [
+    "a photo of a medicine cabinet."
+  ],
+  "megalith": [
+    "a photo of a megalith."
+  ],
+  "microphone": [
+    "a photo of a microphone."
+  ],
+  "microwave oven": [
+    "microwave oven which has rectangular box, door with window, control panel, turntable."
+  ],
+  "military uniform": [
+    "a photo of a military uniform."
+  ],
+  "milk can": [
+    "a photo of a milk can."
+  ],
+  "minibus": [
+    "a photo of a minibus."
+  ],
+  "miniskirt": [
+    "a photo of a miniskirt."
+  ],
+  "minivan": [
+    "minivan which has sliding doors, multi-passenger capacity, boxy shape, raised roofline."
+  ],
+  "missile": [
+    "a photo of a missile."
+  ],
+  "mitten": [
+    "a photo of a mitten."
+  ],
+  "mixing bowl": [
+    "a photo of a mixing bowl."
+  ],
+  "mobile home": [
+    "a photo of a mobile home."
+  ],
+  "ford model t": [
+    "a photo of a ford model t."
+  ],
+  "modem": [
+    "a photo of a modem."
+  ],
+  "monastery": [
+    "a photo of a monastery."
+  ],
+  "monitor": [
+    "a photo of a monitor."
+  ],
+  "moped": [
+    "a photo of a moped."
+  ],
+  "mortar and pestle": [
+    "a photo of a mortar and pestle."
+  ],
+  "graduation cap": [
+    "a photo of a graduation cap."
+  ],
+  "mosque": [
+    "mosque which has dome, minarets, arches, prayer hall."
+  ],
+  "mosquito net": [
+    "a photo of a mosquito net."
+  ],
+  "vespa": [
+    "a photo of a vespa."
+  ],
+  "mountain bike": [
+    "a photo of a mountain bike."
+  ],
+  "tent": [
+    "a photo of a tent."
+  ],
+  "computer mouse": [
+    "a photo of a computer mouse."
+  ],
+  "mousetrap": [
+    "a photo of a mousetrap."
+  ],
+  "moving van": [
+    "a photo of a moving van."
+  ],
+  "muzzle": [
+    "a photo of a muzzle."
+  ],
+  "metal nail": [
+    "a photo of a metal nail."
+  ],
+  "neck brace": [
+    "a photo of a neck brace."
+  ],
+  "necklace": [
+    "a photo of a necklace."
+  ],
+  "baby pacifier": [
+    "a photo of a baby pacifier."
+  ],
+  "notebook computer": [
+    "a photo of a notebook computer."
+  ],
+  "obelisk": [
+    "a photo of a obelisk."
+  ],
+  "oboe": [
+    "a photo of a oboe."
+  ],
+  "ocarina": [
+    "a photo of a ocarina."
+  ],
+  "odometer": [
+    "a photo of a odometer."
+  ],
+  "oil filter": [
+    "a photo of a oil filter."
+  ],
+  "pipe organ": [
+    "a photo of a pipe organ."
+  ],
+  "oscilloscope": [
+    "a photo of a oscilloscope."
+  ],
+  "overskirt": [
+    "a photo of a overskirt."
+  ],
+  "bullock cart": [
+    "a photo of a bullock cart."
+  ],
+  "oxygen mask": [
+    "a photo of a oxygen mask."
+  ],
+  "product packet / packaging": [
+    "a photo of a product packet / packaging."
+  ],
+  "paddle": [
+    "a photo of a paddle."
+  ],
+  "paddle wheel": [
+    "a photo of a paddle wheel."
+  ],
+  "padlock": [
+    "a photo of a padlock."
+  ],
+  "paintbrush": [
+    "a photo of a paintbrush."
+  ],
+  "pajamas": [
+    "a photo of a pajamas."
+  ],
+  "palace": [
+    "palace which has grand architecture, large scale, ornate decorations, multiple wings."
+  ],
+  "pan flute": [
+    "a photo of a pan flute."
+  ],
+  "paper towel": [
+    "a photo of a paper towel."
+  ],
+  "parachute": [
+    "parachute which has large canopy, suspension lines, harness, pack."
+  ],
+  "parallel bars": [
+    "a photo of a parallel bars."
+  ],
+  "park bench": [
+    "a photo of a park bench."
+  ],
+  "parking meter": [
+    "a photo of a parking meter."
+  ],
+  "railroad car": [
+    "a photo of a railroad car."
+  ],
+  "patio": [
+    "a photo of a patio."
+  ],
+  "payphone": [
+    "a photo of a payphone."
+  ],
+  "pedestal": [
+    "a photo of a pedestal."
+  ],
+  "pencil case": [
+    "a photo of a pencil case."
+  ],
+  "pencil sharpener": [
+    "a photo of a pencil sharpener."
+  ],
+  "perfume": [
+    "a photo of a perfume."
+  ],
+  "Petri dish": [
+    "a photo of a Petri dish."
+  ],
+  "photocopier": [
+    "a photo of a photocopier."
+  ],
+  "plectrum": [
+    "a photo of a plectrum."
+  ],
+  "Pickelhaube": [
+    "a photo of a Pickelhaube."
+  ],
+  "picket fence": [
+    "a photo of a picket fence."
+  ],
+  "pickup truck": [
+    "a photo of a pickup truck."
+  ],
+  "pier": [
+    "a photo of a pier."
+  ],
+  "piggy bank": [
+    "a photo of a piggy bank."
+  ],
+  "pill bottle": [
+    "a photo of a pill bottle."
+  ],
+  "pillow": [
+    "a photo of a pillow."
+  ],
+  "ping-pong ball": [
+    "a photo of a ping-pong ball."
+  ],
+  "pinwheel": [
+    "a photo of a pinwheel."
+  ],
+  "pirate ship": [
+    "a photo of a pirate ship."
+  ],
+  "drink pitcher": [
+    "a photo of a drink pitcher."
+  ],
+  "block plane": [
+    "a photo of a block plane."
+  ],
+  "planetarium": [
+    "a photo of a planetarium."
+  ],
+  "plastic bag": [
+    "a photo of a plastic bag."
+  ],
+  "plate rack": [
+    "a photo of a plate rack."
+  ],
+  "farm plow": [
+    "a photo of a farm plow."
+  ],
+  "plunger": [
+    "a photo of a plunger."
+  ],
+  "Polaroid camera": [
+    "a photo of a Polaroid camera."
+  ],
+  "pole": [
+    "a photo of a pole."
+  ],
+  "police van": [
+    "a photo of a police van."
+  ],
+  "poncho": [
+    "a photo of a poncho."
+  ],
+  "pool table": [
+    "a photo of a pool table."
+  ],
+  "soda bottle": [
+    "a photo of a soda bottle."
+  ],
+  "plant pot": [
+    "a photo of a plant pot."
+  ],
+  "potter's wheel": [
+    "a photo of a potter's wheel."
+  ],
+  "power drill": [
+    "a photo of a power drill."
+  ],
+  "prayer rug": [
+    "a photo of a prayer rug."
+  ],
+  "printer": [
+    "a photo of a printer."
+  ],
+  "prison": [
+    "a photo of a prison."
+  ],
+  "projector": [
+    "a photo of a projector."
+  ],
+  "hockey puck": [
+    "a photo of a hockey puck."
+  ],
+  "punching bag": [
+    "a photo of a punching bag."
+  ],
+  "purse": [
+    "a photo of a purse."
+  ],
+  "quill": [
+    "a photo of a quill."
+  ],
+  "quilt": [
+    "a photo of a quilt."
+  ],
+  "race car": [
+    "race car which has low profile, aerodynamic body, spoiler, large tires, roll cage."
+  ],
+  "racket": [
+    "a photo of a racket."
+  ],
+  "radiator": [
+    "a photo of a radiator."
+  ],
+  "radio": [
+    "a photo of a radio."
+  ],
+  "radio telescope": [
+    "a photo of a radio telescope."
+  ],
+  "rain barrel": [
+    "a photo of a rain barrel."
+  ],
+  "recreational vehicle": [
+    "a photo of a recreational vehicle."
+  ],
+  "fishing casting reel": [
+    "a photo of a fishing casting reel."
+  ],
+  "reflex camera": [
+    "a photo of a reflex camera."
+  ],
+  "refrigerator": [
+    "refrigerator which has large boxy appliance, freezer compartment, cooling unit."
+  ],
+  "remote control": [
+    "a photo of a remote control."
+  ],
+  "restaurant": [
+    "a photo of a restaurant."
+  ],
+  "revolver": [
+    "a photo of a revolver."
+  ],
+  "rifle": [
+    "a photo of a rifle."
+  ],
+  "rocking chair": [
+    "a photo of a rocking chair."
+  ],
+  "rotisserie": [
+    "a photo of a rotisserie."
+  ],
+  "eraser": [
+    "a photo of a eraser."
+  ],
+  "rugby ball": [
+    "rugby ball which has oval shape, four panels, dimpled surface."
+  ],
+  "ruler measuring stick": [
+    "a photo of a ruler measuring stick."
+  ],
+  "sneaker": [
+    "a photo of a sneaker."
+  ],
+  "safe": [
+    "a photo of a safe."
+  ],
+  "safety pin": [
+    "a photo of a safety pin."
+  ],
+  "salt shaker": [
+    "a photo of a salt shaker."
+  ],
+  "sandal": [
+    "a photo of a sandal."
+  ],
+  "sarong": [
+    "a photo of a sarong."
+  ],
+  "saxophone": [
+    "saxophone which has conical brass body, keys/pads, mouthpiece with reed."
+  ],
+  "scabbard": [
+    "a photo of a scabbard."
+  ],
+  "weighing scale": [
+    "a photo of a weighing scale."
+  ],
+  "school bus": [
+    "school bus which has yellow color, stop sign arm, flashing lights, multiple windows."
+  ],
+  "schooner": [
+    "a photo of a schooner."
+  ],
+  "scoreboard": [
+    "a photo of a scoreboard."
+  ],
+  "CRT monitor": [
+    "a photo of a CRT monitor."
+  ],
+  "screw": [
+    "a photo of a screw."
+  ],
+  "screwdriver": [
+    "a photo of a screwdriver."
+  ],
+  "seat belt": [
+    "a photo of a seat belt."
+  ],
+  "sewing machine": [
+    "a photo of a sewing machine."
+  ],
+  "shield": [
+    "a photo of a shield."
+  ],
+  "shoe store": [
+    "a photo of a shoe store."
+  ],
+  "shoji screen / room divider": [
+    "a photo of a shoji screen / room divider."
+  ],
+  "shopping basket": [
+    "a photo of a shopping basket."
+  ],
+  "shopping cart": [
+    "a photo of a shopping cart."
+  ],
+  "shovel": [
+    "a photo of a shovel."
+  ],
+  "shower cap": [
+    "a photo of a shower cap."
+  ],
+  "shower curtain": [
+    "a photo of a shower curtain."
+  ],
+  "ski": [
+    "a photo of a ski."
+  ],
+  "balaclava ski mask": [
+    "a photo of a balaclava ski mask."
+  ],
+  "sleeping bag": [
+    "a photo of a sleeping bag."
+  ],
+  "slide rule": [
+    "a photo of a slide rule."
+  ],
+  "sliding door": [
+    "a photo of a sliding door."
+  ],
+  "slot machine": [
+    "a photo of a slot machine."
+  ],
+  "snorkel": [
+    "a photo of a snorkel."
+  ],
+  "snowmobile": [
+    "a photo of a snowmobile."
+  ],
+  "snowplow": [
+    "a photo of a snowplow."
+  ],
+  "soap dispenser": [
+    "a photo of a soap dispenser."
+  ],
+  "soccer ball": [
+    "soccer ball which has spherical shape, hexagonal and pentagonal panels, black and white pattern."
+  ],
+  "sock": [
+    "a photo of a sock."
+  ],
+  "solar thermal collector": [
+    "a photo of a solar thermal collector."
+  ],
+  "sombrero": [
+    "sombrero which has wide brim, high pointed crown, often decorated."
+  ],
+  "soup bowl": [
+    "a photo of a soup bowl."
+  ],
+  "keyboard space bar": [
+    "a photo of a keyboard space bar."
+  ],
+  "space heater": [
+    "a photo of a space heater."
+  ],
+  "space shuttle": [
+    "space shuttle which has delta wings, large external tank, solid rocket boosters, orbiter vehicle."
+  ],
+  "spatula": [
+    "a photo of a spatula."
+  ],
+  "motorboat": [
+    "a photo of a motorboat."
+  ],
+  "spider web": [
+    "a photo of a spider web."
+  ],
+  "spindle": [
+    "a photo of a spindle."
+  ],
+  "sports car": [
+    "sports car which has low-slung body, two seats, sleek design, powerful engine."
+  ],
+  "spotlight": [
+    "a photo of a spotlight."
+  ],
+  "stage": [
+    "a photo of a stage."
+  ],
+  "steam locomotive": [
+    "a photo of a steam locomotive."
+  ],
+  "through arch bridge": [
+    "a photo of a through arch bridge."
+  ],
+  "steel drum": [
+    "a photo of a steel drum."
+  ],
+  "stethoscope": [
+    "a photo of a stethoscope."
+  ],
+  "scarf": [
+    "a photo of a scarf."
+  ],
+  "stone wall": [
+    "a photo of a stone wall."
+  ],
+  "stopwatch": [
+    "a photo of a stopwatch."
+  ],
+  "stove": [
+    "a photo of a stove."
+  ],
+  "strainer": [
+    "a photo of a strainer."
+  ],
+  "tram": [
+    "a photo of a tram."
+  ],
+  "stretcher": [
+    "a photo of a stretcher."
+  ],
+  "couch": [
+    "a photo of a couch."
+  ],
+  "stupa": [
+    "a photo of a stupa."
+  ],
+  "submarine": [
+    "submarine which has cylindrical hull, conning tower/sail, propeller, periscope."
+  ],
+  "suit": [
+    "a photo of a suit."
+  ],
+  "sundial": [
+    "a photo of a sundial."
+  ],
+  "sunglasses": [
+    "sunglasses which has dark tinted lenses, frame."
+  ],
+  "sunscreen": [
+    "a photo of a sunscreen."
+  ],
+  "suspension bridge": [
+    "suspension bridge which has main cables, suspender cables, towers, deck."
+  ],
+  "mop": [
+    "a photo of a mop."
+  ],
+  "sweatshirt": [
+    "a photo of a sweatshirt."
+  ],
+  "swim trunks / shorts": [
+    "a photo of a swim trunks / shorts."
+  ],
+  "swing": [
+    "a photo of a swing."
+  ],
+  "electrical switch": [
+    "a photo of a electrical switch."
+  ],
+  "syringe": [
+    "a photo of a syringe."
+  ],
+  "table lamp": [
+    "a photo of a table lamp."
+  ],
+  "tank": [
+    "a photo of a tank."
+  ],
+  "tape player": [
+    "a photo of a tape player."
+  ],
+  "teapot": [
+    "a photo of a teapot."
+  ],
+  "teddy bear": [
+    "a photo of a teddy bear."
+  ],
+  "television": [
+    "television which has rectangular screen, bezel/frame."
+  ],
+  "tennis ball": [
+    "tennis ball which has spherical shape, yellow-green felt, white curved lines."
+  ],
+  "thatched roof": [
+    "a photo of a thatched roof."
+  ],
+  "front curtain": [
+    "a photo of a front curtain."
+  ],
+  "thimble": [
+    "a photo of a thimble."
+  ],
+  "threshing machine": [
+    "a photo of a threshing machine."
+  ],
+  "throne": [
+    "a photo of a throne."
+  ],
+  "tile roof": [
+    "a photo of a tile roof."
+  ],
+  "toaster": [
+    "toaster which has slotted top, heating elements, lever, crumb tray."
+  ],
+  "tobacco shop": [
+    "a photo of a tobacco shop."
+  ],
+  "toilet seat": [
+    "a photo of a toilet seat."
+  ],
+  "torch": [
+    "a photo of a torch."
+  ],
+  "totem pole": [
+    "a photo of a totem pole."
+  ],
+  "tow truck": [
+    "a photo of a tow truck."
+  ],
+  "toy store": [
+    "a photo of a toy store."
+  ],
+  "tractor": [
+    "a photo of a tractor."
+  ],
+  "semi-trailer truck": [
+    "a photo of a semi-trailer truck."
+  ],
+  "tray": [
+    "a photo of a tray."
+  ],
+  "trench coat": [
+    "a photo of a trench coat."
+  ],
+  "tricycle": [
+    "a photo of a tricycle."
+  ],
+  "trimaran": [
+    "a photo of a trimaran."
+  ],
+  "tripod": [
+    "a photo of a tripod."
+  ],
+  "triumphal arch": [
+    "a photo of a triumphal arch."
+  ],
+  "trolleybus": [
+    "a photo of a trolleybus."
+  ],
+  "trombone": [
+    "a photo of a trombone."
+  ],
+  "hot tub": [
+    "a photo of a hot tub."
+  ],
+  "turnstile": [
+    "a photo of a turnstile."
+  ],
+  "typewriter keyboard": [
+    "a photo of a typewriter keyboard."
+  ],
+  "umbrella": [
+    "umbrella which has canopy, ribs, handle, shaft, folding mechanism."
+  ],
+  "unicycle": [
+    "a photo of a unicycle."
+  ],
+  "upright piano": [
+    "a photo of a upright piano."
+  ],
+  "vacuum cleaner": [
+    "vacuum cleaner which has motor unit, hose/attachments, collection bag/canister, wheels."
+  ],
+  "vase": [
+    "a photo of a vase."
+  ],
+  "vaulted or arched ceiling": [
+    "a photo of a vaulted or arched ceiling."
+  ],
+  "velvet fabric": [
+    "a photo of a velvet fabric."
+  ],
+  "vending machine": [
+    "a photo of a vending machine."
+  ],
+  "vestment": [
+    "a photo of a vestment."
+  ],
+  "viaduct": [
+    "a photo of a viaduct."
+  ],
+  "violin": [
+    "violin which has wooden body, four strings, f-holes, bow, scroll."
+  ],
+  "volleyball": [
+    "volleyball which has spherical shape, synthetic leather panels, white and colored sections."
+  ],
+  "waffle iron": [
+    "a photo of a waffle iron."
+  ],
+  "wall clock": [
+    "a photo of a wall clock."
+  ],
+  "wallet": [
+    "a photo of a wallet."
+  ],
+  "wardrobe": [
+    "a photo of a wardrobe."
+  ],
+  "military aircraft": [
+    "a photo of a military aircraft."
+  ],
+  "sink": [
+    "a photo of a sink."
+  ],
+  "washing machine": [
+    "washing machine which has large appliance, drum/agitator, control panel."
+  ],
+  "water bottle": [
+    "a photo of a water bottle."
+  ],
+  "water jug": [
+    "a photo of a water jug."
+  ],
+  "water tower": [
+    "a photo of a water tower."
+  ],
+  "whiskey jug": [
+    "a photo of a whiskey jug."
+  ],
+  "whistle": [
+    "a photo of a whistle."
+  ],
+  "hair wig": [
+    "a photo of a hair wig."
+  ],
+  "window screen": [
+    "a photo of a window screen."
+  ],
+  "window shade": [
+    "a photo of a window shade."
+  ],
+  "Windsor tie": [
+    "a photo of a Windsor tie."
+  ],
+  "wine bottle": [
+    "wine bottle which has glass bottle, cylindrical body, narrow neck, cork/screw cap."
+  ],
+  "airplane wing": [
+    "a photo of a airplane wing."
+  ],
+  "wok": [
+    "a photo of a wok."
+  ],
+  "wooden spoon": [
+    "a photo of a wooden spoon."
+  ],
+  "wool": [
+    "a photo of a wool."
+  ],
+  "split-rail fence": [
+    "a photo of a split-rail fence."
+  ],
+  "shipwreck": [
+    "a photo of a shipwreck."
+  ],
+  "sailboat": [
+    "sailboat which has mast, sails, hull, keel, rudder."
+  ],
+  "yurt": [
+    "a photo of a yurt."
+  ],
+  "website": [
+    "a photo of a website."
+  ],
+  "comic book": [
+    "a photo of a comic book."
+  ],
+  "crossword": [
+    "a photo of a crossword."
+  ],
+  "traffic or street sign": [
+    "a photo of a traffic or street sign."
+  ],
+  "traffic light": [
+    "a photo of a traffic light."
+  ],
+  "dust jacket": [
+    "a photo of a dust jacket."
+  ],
+  "menu": [
+    "a photo of a menu."
+  ],
+  "plate": [
+    "a photo of a plate."
+  ],
+  "guacamole": [
+    "a photo of a guacamole."
+  ],
+  "consomme": [
+    "a photo of a consomme."
+  ],
+  "hot pot": [
+    "a photo of a hot pot."
+  ],
+  "trifle": [
+    "a photo of a trifle."
+  ],
+  "ice cream": [
+    "ice cream which has creamy texture, sweet flavor, various colors, served cold."
+  ],
+  "popsicle": [
+    "a photo of a popsicle."
+  ],
+  "baguette": [
+    "a photo of a baguette."
+  ],
+  "bagel": [
+    "a photo of a bagel."
+  ],
+  "pretzel": [
+    "a photo of a pretzel."
+  ],
+  "cheeseburger": [
+    "cheeseburger which has ground beef patty, cheese slice, bun."
+  ],
+  "hot dog": [
+    "hot dog which has sausage, bun."
+  ],
+  "mashed potatoes": [
+    "a photo of a mashed potatoes."
+  ],
+  "cabbage": [
+    "a photo of a cabbage."
+  ],
+  "broccoli": [
+    "broccoli which has green florets, thick stalk, tree-like appearance."
+  ],
+  "cauliflower": [
+    "cauliflower which has white curds, green leaves, compact head."
+  ],
+  "zucchini": [
+    "a photo of a zucchini."
+  ],
+  "spaghetti squash": [
+    "a photo of a spaghetti squash."
+  ],
+  "acorn squash": [
+    "a photo of a acorn squash."
+  ],
+  "butternut squash": [
+    "a photo of a butternut squash."
+  ],
+  "cucumber": [
+    "a photo of a cucumber."
+  ],
+  "artichoke": [
+    "a photo of a artichoke."
+  ],
+  "bell pepper": [
+    "a photo of a bell pepper."
+  ],
+  "cardoon": [
+    "a photo of a cardoon."
+  ],
+  "mushroom": [
+    "mushroom which has cap, stem/stalk."
+  ],
+  "Granny Smith apple": [
+    "a photo of a Granny Smith apple."
+  ],
+  "strawberry": [
+    "strawberry which has red flesh, green leafy cap, small seeds on exterior, heart shape."
+  ],
+  "orange": [
+    "a photo of a orange."
+  ],
+  "lemon": [
+    "a photo of a lemon."
+  ],
+  "fig": [
+    "a photo of a fig."
+  ],
+  "pineapple": [
+    "pineapple which has spiky crown of leaves, rough scaly skin, oval shape, sweet yellow flesh."
+  ],
+  "banana": [
+    "banana which has curved shape, yellow peel, soft flesh, stem."
+  ],
+  "jackfruit": [
+    "a photo of a jackfruit."
+  ],
+  "cherimoya (custard apple)": [
+    "a photo of a cherimoya (custard apple)."
+  ],
+  "pomegranate": [
+    "a photo of a pomegranate."
+  ],
+  "hay": [
+    "a photo of a hay."
+  ],
+  "carbonara": [
+    "a photo of a carbonara."
+  ],
+  "chocolate syrup": [
+    "a photo of a chocolate syrup."
+  ],
+  "dough": [
+    "a photo of a dough."
+  ],
+  "meatloaf": [
+    "a photo of a meatloaf."
+  ],
+  "pizza": [
+    "pizza which has round flat dough, tomato sauce, cheese, various toppings."
+  ],
+  "pot pie": [
+    "a photo of a pot pie."
+  ],
+  "burrito": [
+    "a photo of a burrito."
+  ],
+  "red wine": [
+    "a photo of a red wine."
+  ],
+  "espresso": [
+    "espresso which has small volume, dark brown liquid, crema layer, served in demitasse cup."
+  ],
+  "tea cup": [
+    "a photo of a tea cup."
+  ],
+  "eggnog": [
+    "a photo of a eggnog."
+  ],
+  "mountain": [
+    "a photo of a mountain."
+  ],
+  "bubble": [
+    "a photo of a bubble."
+  ],
+  "cliff": [
+    "a photo of a cliff."
+  ],
+  "coral reef": [
+    "coral reef which has underwater structure, diverse colors, calcium carbonate skeleton, polyp colonies."
+  ],
+  "geyser": [
+    "a photo of a geyser."
+  ],
+  "lakeshore": [
+    "a photo of a lakeshore."
+  ],
+  "promontory": [
+    "a photo of a promontory."
+  ],
+  "sandbar": [
+    "a photo of a sandbar."
+  ],
+  "beach": [
+    "a photo of a beach."
+  ],
+  "valley": [
+    "a photo of a valley."
+  ],
+  "volcano": [
+    "volcano which has cone-shaped landform, crater, vent."
+  ],
+  "baseball player": [
+    "a photo of a baseball player."
+  ],
+  "bridegroom": [
+    "a photo of a bridegroom."
+  ],
+  "scuba diver": [
+    "a photo of a scuba diver."
+  ],
+  "rapeseed": [
+    "a photo of a rapeseed."
+  ],
+  "daisy": [
+    "daisy which has white petals, yellow center disk, rosette of leaves, single stem."
+  ],
+  "yellow lady's slipper": [
+    "a photo of a yellow lady's slipper."
+  ],
+  "corn": [
+    "a photo of a corn."
+  ],
+  "acorn": [
+    "a photo of a acorn."
+  ],
+  "rose hip": [
+    "a photo of a rose hip."
+  ],
+  "horse chestnut seed": [
+    "a photo of a horse chestnut seed."
+  ],
+  "coral fungus": [
+    "a photo of a coral fungus."
+  ],
+  "agaric": [
+    "a photo of a agaric."
+  ],
+  "gyromitra": [
+    "a photo of a gyromitra."
+  ],
+  "stinkhorn mushroom": [
+    "a photo of a stinkhorn mushroom."
+  ],
+  "earth star fungus": [
+    "a photo of a earth star fungus."
+  ],
+  "hen of the woods mushroom": [
+    "a photo of a hen of the woods mushroom."
+  ],
+  "bolete": [
+    "a photo of a bolete."
+  ],
+  "corn cob": [
+    "a photo of a corn cob."
+  ],
+  "toilet paper": [
+    "a photo of a toilet paper."
+  ]
+}
