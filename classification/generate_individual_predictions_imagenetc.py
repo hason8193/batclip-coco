@@ -220,6 +220,10 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = False
     
+    # Use CuPL prompts instead of default "a photo of a {}"
+    cfg.CLIP.PROMPT_MODE = "cupl"
+    cfg.CLIP.PROMPT_PATH = "datasets/cupl_prompts/CuPL_ImageNet_prompts.json"
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[+] Device: {device}")
     if torch.cuda.is_available():
