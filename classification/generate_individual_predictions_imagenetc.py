@@ -220,9 +220,9 @@ def generate_individual_predictions(data_dir='ImageNet-C', corruption='defocus_b
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = False
     
-    # Use CuPL prompts for ImageNet-100 (với class names khớp chính xác)
+    # Use CuPL prompts (file gốc với đầy đủ 1000 classes)
     cfg.CLIP.PROMPT_MODE = "cupl"
-    cfg.CLIP.PROMPT_PATH = "datasets/cupl_prompts/CuPL_ImageNet100_prompts.json"
+    cfg.CLIP.PROMPT_PATH = "datasets/cupl_prompts/CuPL_ImageNet_prompts.json"
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[+] Device: {device}")
