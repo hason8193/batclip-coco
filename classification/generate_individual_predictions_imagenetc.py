@@ -17,8 +17,8 @@ import argparse
 from conf import cfg
 from models.model import get_model
 from datasets.cls_names import get_class_names
-from datasets.feature_prompts import build_imagenet_prompt_json, load_feature_dict, write_prompt_json
 from utils.registry import ADAPTATION_REGISTRY
+import json
 
 # Import adaptation methods to register them
 import methods
@@ -225,31 +225,43 @@ def generate_individual_predictions(data_dir='ImageNet-C-100', corruption='defoc
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = True  # ✅ Reset model after each batch to prevent drift
 
-    # Use feature-rich prompts for better text embeddings
+    # Use CuPL prompts filtered to 100 selected classes
     if use_feature_prompts:
-        feature_dict_path = Path(__file__).parent / 'imagenet100_dict.json'
-        if feature_dict_path.exists():
-            print(f"[+] Loading feature descriptions from {feature_dict_path.name}...")
-            imagenet_class_names = get_class_names('imagenet')
-            feature_dict = load_feature_dict(str(feature_dict_path))
+        cupl_path = Path('datasets/cupl_prompts/CuPL_ImageNet_prompts.json')
+        if cupl_path.exists():
+            print(f"[+] Loading CuPL prompts from {cupl_path.name}...")
             
-            # Build enhanced prompts using features
-            prompt_json = build_imagenet_prompt_json(
-                imagenet_class_names,
-                feature_dict,
-                variant='has',  # "which has [features]"
-                fallback_template='a photo of a {}.',
-            )
+            # Load full CuPL prompts (1000 classes)
+            with open(cupl_path, 'r') as f:
+                full_cupl_prompts = json.load(f)
             
-            # Write to cupl_prompts directory
-            prompt_output = Path('datasets/cupl_prompts/imagenet100_features.json')
-            write_prompt_json(prompt_json, str(prompt_output))
+            # Filter to only the 100 selected classes
+            # Handle class name formatting: SELECTED_CLASSES uses underscores, CuPL uses spaces
+            filtered_prompts = {}
+            matched = 0
+            for class_name in SELECTED_CLASSES:
+                # Try both formats: with underscores and with spaces
+                class_with_spaces = class_name.replace('_', ' ')
+                if class_with_spaces in full_cupl_prompts:
+                    filtered_prompts[class_with_spaces] = full_cupl_prompts[class_with_spaces]
+                    matched += 1
+                elif class_name in full_cupl_prompts:
+                    filtered_prompts[class_name] = full_cupl_prompts[class_name]
+                    matched += 1
+                else:
+                    print(f"  ⚠ Warning: '{class_name}' not found in CuPL prompts")
+            
+            # Write filtered prompts
+            prompt_output = Path('datasets/cupl_prompts/imagenet100_cupl_filtered.json')
+            prompt_output.parent.mkdir(parents=True, exist_ok=True)
+            with open(prompt_output, 'w') as f:
+                json.dump(filtered_prompts, f, indent=2)
             
             cfg.CLIP.PROMPT_MODE = 'cupl'
             cfg.CLIP.PROMPT_PATH = str(prompt_output)
-            print(f"[+] Using feature-enhanced prompts with {len(feature_dict)} enriched classes")
+            print(f"[+] Using CuPL prompts: {matched}/100 classes matched")
         else:
-            print(f"[!] Feature dict not found at {feature_dict_path}, using default prompts")
+            print(f"[!] CuPL prompts not found at {cupl_path}, using default prompts")
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[+] Device: {device}")
@@ -301,7 +313,7 @@ def generate_individual_predictions(data_dir='ImageNet-C-100', corruption='defoc
     # Create output directory with severity level
     output_dir_name = f"{corruption}_severity_{severity}"
     if use_feature_prompts:
-        output_dir_name += "_features"
+        output_dir_name += "_cupl"
     output_dir = Path(f"visualizations/individual_imagenetc/{output_dir_name}")
     output_dir.mkdir(parents=True, exist_ok=True)
     print(f"[+] Output directory: {output_dir}")
@@ -410,9 +422,9 @@ if __name__ == "__main__":
     parser.add_argument('--batch-size', type=int, default=8,
                        help='Batch size for processing (required for TTA)')
     parser.add_argument('--use-feature-prompts', action='store_true', default=True,
-                       help='Use feature-rich prompts from imagenet100_dict.json (default: True)')
+                       help='Use CuPL prompts filtered to 100 classes (default: True)')
     parser.add_argument('--no-feature-prompts', dest='use_feature_prompts', action='store_false',
-                       help='Disable feature prompts and use standard "a photo of a {}" template')
+                       help='Disable CuPL prompts and use standard "a photo of a {}" template')
     
     args = parser.parse_args()
     
