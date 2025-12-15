@@ -225,41 +225,14 @@ def generate_individual_predictions(data_dir='ImageNet-C-100', corruption='defoc
     cfg.OPTIM.LR = 0.001
     cfg.MODEL.EPISODIC = True  # ✅ Reset model after each batch to prevent drift
 
-    # Use CuPL prompts filtered to 100 selected classes
+    # Use CuPL prompts for all 1000 classes (filtering happens at prediction time)
     if use_feature_prompts:
         cupl_path = Path('datasets/cupl_prompts/CuPL_ImageNet_prompts.json')
         if cupl_path.exists():
             print(f"[+] Loading CuPL prompts from {cupl_path.name}...")
-            
-            # Load full CuPL prompts (1000 classes)
-            with open(cupl_path, 'r') as f:
-                full_cupl_prompts = json.load(f)
-            
-            # Filter to only the 100 selected classes
-            # Handle class name formatting: SELECTED_CLASSES uses underscores, CuPL uses spaces
-            filtered_prompts = {}
-            matched = 0
-            for class_name in SELECTED_CLASSES:
-                # Try both formats: with underscores and with spaces
-                class_with_spaces = class_name.replace('_', ' ')
-                if class_with_spaces in full_cupl_prompts:
-                    filtered_prompts[class_with_spaces] = full_cupl_prompts[class_with_spaces]
-                    matched += 1
-                elif class_name in full_cupl_prompts:
-                    filtered_prompts[class_name] = full_cupl_prompts[class_name]
-                    matched += 1
-                else:
-                    print(f"  ⚠ Warning: '{class_name}' not found in CuPL prompts")
-            
-            # Write filtered prompts
-            prompt_output = Path('datasets/cupl_prompts/imagenet100_cupl_filtered.json')
-            prompt_output.parent.mkdir(parents=True, exist_ok=True)
-            with open(prompt_output, 'w') as f:
-                json.dump(filtered_prompts, f, indent=2)
-            
             cfg.CLIP.PROMPT_MODE = 'cupl'
-            cfg.CLIP.PROMPT_PATH = str(prompt_output)
-            print(f"[+] Using CuPL prompts: {matched}/100 classes matched")
+            cfg.CLIP.PROMPT_PATH = str(cupl_path)
+            print(f"[+] Using CuPL prompts for all 1000 ImageNet classes (predictions filtered to 100)")
         else:
             print(f"[!] CuPL prompts not found at {cupl_path}, using default prompts")
     
