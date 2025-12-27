@@ -24,10 +24,27 @@ class TextEncoder(nn.Module):
         self.attn_mask = clip_model.attn_mask
 
     def forward(self, prompts, tokenized_prompts):
-        x = prompts + self.positional_embedding.type(self.dtype)
-        x = x.permute(1, 0, 2)  # NLD -> LND
-        x = self.transformer(x, attn_mask=self.attn_mask)
-        x = x.permute(1, 0, 2)  # LND -> NLD
+        # Align positional embeddings and attn mask length with current prompt length
+        seq_len = prompts.shape[1]
+        pos_embed = self.positional_embedding[:seq_len].type(self.dtype)
+        attn_mask = None
+        if self.attn_mask is not None:
+            # attn_mask is (context_len, context_len); clip to the current length
+            attn_mask = self.attn_mask[:seq_len, :seq_len]
+
+        x = prompts + pos_embed  # (N, L, D)
+
+        # open_clip >=3.x may set batch_first=True. Handle both layouts.
+        batch_first = getattr(self.transformer, "batch_first", False)
+        if batch_first:
+            # Transformer expects (N, L, D)
+            x = self.transformer(x, attn_mask=attn_mask)
+        else:
+            # Transformer expects (L, N, D)
+            x = x.permute(1, 0, 2)  # NLD -> LND
+            x = self.transformer(x, attn_mask=attn_mask)
+            x = x.permute(1, 0, 2)  # LND -> NLD
+
         x = self.ln_final(x).type(self.dtype)
 
         # x.shape = [batch_size, n_ctx, transformer.width]
