@@ -20,6 +20,7 @@ The demo works on CPU as well but will adapt faster on GPU.
 from __future__ import annotations
 
 import sys
+import os
 from pathlib import Path
 from typing import List, Optional, Sequence, Tuple
 import json
@@ -36,8 +37,16 @@ try:
 except ImportError:
     GENAI_AVAILABLE = False
 
-# Hard-coded Gemini API key (replace with your key)
-GENAI_API_KEY = "AIzaSyCwsIoSq9U5-jnY5OpOilrTJNJ2nCE2LGc"
+# Prefer env key (avoid hard-coding secrets in repo)
+DEFAULT_GENAI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
+# Prefer using the shared generator module if present (keeps demo + script consistent)
+try:
+    from LLM_Caption.generate_main import generate_captions as shared_generate_captions  # type: ignore
+    HAVE_SHARED_CAPTION_GEN = True
+except Exception:
+    HAVE_SHARED_CAPTION_GEN = False
+    shared_generate_captions = None  # type: ignore
 
 ROOT_DIR = Path(__file__).resolve().parent
 CLASSIFICATION_DIR = ROOT_DIR / "classification"
@@ -57,7 +66,7 @@ def _extract_sentences(response_text: str) -> List[str]:
     return [line.strip() for line in response_text.split("\n") if line.strip()]
 
 
-def generate_llm_captions(
+def _generate_llm_captions_inline(
     labels: Sequence[str],
     api_key: str,
     out_path: Path,
@@ -319,6 +328,11 @@ def main() -> None:
 
     st.sidebar.header("Chọn nhãn")
     default_labels = ["cat", "dog", "pizza", "people"]
+    api_key = DEFAULT_GENAI_API_KEY
+    if not api_key:
+        st.sidebar.caption(
+            "Muốn tự sinh caption (tuỳ chọn): set biến môi trường `GEMINI_API_KEY` trước khi chạy demo."
+        )
 
     # lưu nhãn tùy chỉnh trong session
     if "custom_labels" not in st.session_state:
@@ -393,10 +407,18 @@ def main() -> None:
                 lr=lr,
             )
             # Auto-generate captions for selected labels (if available)
-            if GENAI_AVAILABLE and GENAI_API_KEY and "<PUT_YOUR_GEMINI_API_KEY_HERE>" not in GENAI_API_KEY:
+            if GENAI_AVAILABLE and api_key:
                 try:
                     out_path = ROOT_DIR / "LLM_Caption" / "class_dict.json"
-                    generate_llm_captions(selected_labels, GENAI_API_KEY, out_path, temperature=0.6)
+                    if HAVE_SHARED_CAPTION_GEN:
+                        shared_generate_captions(  # type: ignore[misc]
+                            selected_labels,
+                            api_key,
+                            out_path,
+                            temperature=0.6,
+                        )
+                    else:
+                        _generate_llm_captions_inline(selected_labels, api_key, out_path, temperature=0.6)
                 except Exception as exc:  # pragma: no cover
                     st.sidebar.warning(f"Sinh caption lỗi (bỏ qua): {exc}")
             image_pairs = _safe_load_images(uploaded)
